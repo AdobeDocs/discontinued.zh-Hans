@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9415588f8d42414d8d9deade1a59a7cdb55a2940
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # 参与
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 ## 参与者指南文档
 
-请参阅 [参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+请参阅[投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
 
 ## 有问题？
 
