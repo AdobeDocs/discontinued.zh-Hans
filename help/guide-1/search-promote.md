@@ -1,29 +1,29 @@
 ---
-title: '"[!DNL Adobe Search&Promote] 服务终止公告”'
-description: 进一步了解 [!DNL Adobe Search&Promote] 服务终止公告。
+title: “[!DNL Adobe Search&Promote]服务终止公告”
+description: 了解更多关于 [!DNL Adobe Search&Promote] 服务终止公告。
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 source-git-commit: 8089325de90b03d573df28483428c2b82d221cd4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Search&Promote] 服务终止公告
+# [!DNL Adobe Search&Promote]服务终止公告
 
-## 关于服务终止的常见问题解答 [!DNL Search&Promote]
+## 关于 [!DNL Search&Promote] 的服务终止的常见问题解答
 
-### **_日期 [!DNL Search&Promote] 停止运营？_**
+### **_[!DNL Search&Promote] 将在哪一天停止运营？_**
 
-服务终止 [!DNL Adobe Search&Promote] 已计划 **2022年9月1日**. 在该日期， [!DNL Search&Promote] 管理用户界面将不再可访问，并且请求 [!DNL Search&Promote] API将不再交付结果。 在此日期之前，该服务将完全可用且正常运行。 预计2022年9月1日，应享合同权利 [!DNL Search&Promote] 将不允许超过2022年8月31日。
+[!DNL Adobe Search&Promote] 的服务结束时间定在 **2022 年 9 月 1 日**。 当天，[!DNL Search&Promote] 的管理用户界面将不再可访问，并且请求 [!DNL Search&Promote] API 将不再提供结果。 在此日期之前，该服务将完全可用并正常运行。 预计到 2022 年 9 月 1 日，在 2022 年 8 月 31 日之后将不再允许对 [!DNL Search&Promote] 的合同权利。
 
-### **_如果对 [!DNL Search&Promote]?_**
+### **_如果发出搜索或其他 API 请求会发生什么[!DNL Search&Promote]？_**
 
-对 [!DNL Search&Promote] 将不再返回结果。 请求可能会导致“主机未找到”错误、3xx HTTP重定向，或HTTP错误（如404、408或其他HTTP错误代码）。
+向 [!DNL Search&Promote] 发出的搜索和其他 API 请求将不再返回结果。 请求可能导致“找不到主机”错误、3xx HTTP 重定向或 HTTP 错误（例如 404、408 或其他 HTTP 错误代码）。
 
-### **_Adobe是否有用于网站搜索和商务搜索的替代选项？_**
+### **_Adobe 是否有用于站点搜索和商业搜索的替代选项？_**
 
-是的。 对于产品和商务搜索， [实时搜索来源 [!DNL Adobe Commerce]](https://devdocs.magento.com/live-search/overview.html) 是Adobe搜索应用程序。
+是的。 对于产品和商业搜索，[从  [!DNL Adobe Commerce]](https://devdocs.magento.com/live-search/overview.html) 实时搜索是 Adobe 未来的搜索应用程序。 
 
 <!-- ### **_Can Adobe recommend any frameworks or platforms that offer features similar to Search&Promote?_**
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 ### **_我可以联系谁以了解更多信息？_**
 
-如有任何问题，请联系您的客户成功经理(CSM)，或通过联系Adobe团队 [searchquestions@adobe.com](mailto:searchquestions@adobe.com).
+如有任何问题，请联系您的客户成功经理 (CSM)，或联系 Adobe 团队：[ searchquestions@adobe.com ](mailto:searchquestions@adobe.com)。
