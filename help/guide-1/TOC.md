@@ -1,20 +1,20 @@
 ---
-user-guide-title: 已终止产品 [!DNL Adobe Experience Cloud]
-breadcrumb-title: 已停用产品
-user-guide-description: 已停用产品列表 [!DNL Adobe Experience Cloud].
+user-guide-title: ' [!DNL Adobe Experience Cloud] 的停产产品'
+breadcrumb-title: 停产产品
+user-guide-description: ' [!DNL Adobe Experience Cloud] 的停产产品列表。'
 source-git-commit: 68baba5c3f5347952723a31971b1b14902f2e442
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '32'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 已停用产品 {#using}
+# 停产产品 {#using}
 
-+ [概述](overview.md)
-+ [设备协作](device-co-op.md)
-+ [Experience PlatformAuditor](auditor.md)
++ [概览](overview.md)
++ [Device Co-op](device-co-op.md)
++ [Experience Platform Auditor](auditor.md)
 + [Livefyre](livefyre.md)
 + [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html){target=&quot;_blank&quot;}
 + [Search&amp;Promote](search-promote.md)
