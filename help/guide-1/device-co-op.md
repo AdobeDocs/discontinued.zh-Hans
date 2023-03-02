@@ -3,10 +3,10 @@ keywords: Adobe experience cloud；Adobe Experience Cloud；device co-op；Devic
 title: “[!DNL Device Co-op] 生命周期结束常见问题解答”
 description: 了解 Device Co-op 的生命周期结束计划。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 8089325de90b03d573df28483428c2b82d221cd4
-workflow-type: ht
-source-wordcount: '1085'
-ht-degree: 100%
+source-git-commit: 180dd414dd0b595518f54cddc5b02ed06ecc0b16
+workflow-type: tm+mt
+source-wordcount: '1138'
+ht-degree: 95%
 
 ---
 
@@ -101,3 +101,8 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 ## 采用需要多长时间？
 
 这将取决于功能。 例如，如果使用带有 [!DNL Device Co-op] 的跨设备分析的 Analytics Ultimate 客户需要迁移到实时专用设备图形或基于字段的拼接，则采用将需要一些时间。
+
+## 那么 [!UICONTROL 人员] 量度？
+
+弃用 [!DNL Device Co-op]，则 [!UICONTROL 人员] 量度不再相关。 在不久的将来（日期待定），我们将删除 [!UICONTROL 人员] 量度。 到那时，我们将其数据重定向到 [!UICONTROL 独特访客] 量度以防止项目、区段和计算量度中断。
+
