@@ -4,9 +4,9 @@ title: “[!DNL Device Co-op] 生命周期结束常见问题解答”
 description: 了解 Device Co-op 的生命周期结束计划。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
 source-git-commit: 180dd414dd0b595518f54cddc5b02ed06ecc0b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ### [!DNL Audience Manager]
 
-[!DNL Audience Manager] 维护与第三方设备图形合作伙伴的集成，包括 [!DNL LiveRamp] 和 [!DNL Tapad]，尽管您必须直接与图形合作伙伴建立商业关系，才能利用 [!DNL Audience Manager]。所有客户都应更新任何合作个人资料合并规则以使用除 [!DNL Device Co-op.] 之外的任何选项
+[!DNL Audience Manager] 维护与第三方设备图形合作伙伴的集成，包括 [!DNL LiveRamp] 和 [!DNL Tapad]，尽管您必须直接与图形合作伙伴建立商业关系，才能利用 [!DNL Audience Manager]。所有客户都应更新任何合作个人资料合并规则以使用除 [!DNL Device Co-op.] 之外的任何选项。
 
 ### [!DNL Real-time Customer Data Platform]
 
@@ -102,7 +102,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 这将取决于功能。 例如，如果使用带有 [!DNL Device Co-op] 的跨设备分析的 Analytics Ultimate 客户需要迁移到实时专用设备图形或基于字段的拼接，则采用将需要一些时间。
 
-## 那么 [!UICONTROL 人员] 量度？
+## 有关[!UICONTROL 人员]的量度呢？
 
-弃用 [!DNL Device Co-op]，则 [!UICONTROL 人员] 量度不再相关。 在不久的将来（日期待定），我们将删除 [!UICONTROL 人员] 量度。 到那时，我们将其数据重定向到 [!UICONTROL 独特访客] 量度以防止项目、区段和计算量度中断。
+随着对 [!DNL Device Co-op] 的弃用，[!UICONTROL 人员]量度将会不再相关。在不久的将来（日期待定），我们将会移除[!UICONTROL 人员]量度。届时，我们会将其数据重定向到 Analytics 中的[!UICONTROL 独特访客]量度，以防止项目、区段和计算量度出现中断。
 
