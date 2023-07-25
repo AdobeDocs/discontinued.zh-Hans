@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Experience Cloud]  产品停产概述'
 description: ' [!DNL Adobe Experience Cloud]  和  [!DNL Adobe Experience Platform] 停产、退役或生命周期结束产品的概述'
 exl-id: 4841f7b3-993b-4406-81b1-3fb3fbbff453
 source-git-commit: f13d308f4a29992bbaf3c5f84b2fa4da8c047cfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
 
