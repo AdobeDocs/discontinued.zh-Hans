@@ -2,10 +2,10 @@
 title: “[!DNL Adobe Search&Promote]服务终止公告”
 description: 了解更多关于 [!DNL Adobe Search&Promote] 服务终止公告。
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-source-git-commit: 8089325de90b03d573df28483428c2b82d221cd4
+source-git-commit: d9284331dedc7534dbcaf6eb1b44a7506af5baa0
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 67%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 100%
 
 ## 关于 [!DNL Search&Promote] 的服务终止的常见问题解答
 
-### **_[!DNL Search&Promote] 将在哪一天停止运营？_**
+### **_在什么日期操作 [!DNL Search&Promote] 停止操作？_**
 
-[!DNL Adobe Search&Promote] 的服务结束时间定在 **2022 年 9 月 1 日**。 当天，[!DNL Search&Promote] 的管理用户界面将不再可访问，并且请求 [!DNL Search&Promote] API 将不再提供结果。 在此日期之前，该服务将完全可用并正常运行。 预计到 2022 年 9 月 1 日，在 2022 年 8 月 31 日之后将不再允许对 [!DNL Search&Promote] 的合同权利。
+服务终止 [!DNL Adobe Search&Promote] 已计划 **2022年9月1日**. 在该日期， [!DNL Search&Promote] 无法再访问管理用户界面，请求执行以下操作： [!DNL Search&Promote] API不再提供结果。
 
 ### **_如果发出搜索或其他 API 请求会发生什么[!DNL Search&Promote]？_**
 
-向 [!DNL Search&Promote] 发出的搜索和其他 API 请求将不再返回结果。 请求可能导致“找不到主机”错误、3xx HTTP 重定向或 HTTP 错误（例如 404、408 或其他 HTTP 错误代码）。
+向发出的搜索和其他API请求 [!DNL Search&Promote] 不再返回结果。 请求可能导致“找不到主机”错误、3xx HTTP 重定向或 HTTP 错误（例如 404、408 或其他 HTTP 错误代码）。
 
 ### **_Adobe 是否有用于站点搜索和商业搜索的替代选项？_**
 
-是的。 对于产品和商业搜索，[从  [!DNL Adobe Commerce]](https://devdocs.magento.com/live-search/overview.html) 实时搜索是 Adobe 未来的搜索应用程序。 
+是的。 对于产品和商业搜索，[从  [!DNL Adobe Commerce]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html?lang=en) 实时搜索是 Adobe 未来的搜索应用程序。 
 
 <!-- ### **_Can Adobe recommend any frameworks or platforms that offer features similar to Search&Promote?_**
 
