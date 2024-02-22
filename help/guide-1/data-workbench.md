@@ -1,13 +1,13 @@
 ---
 title: “[!DNL Data Workbench] 终止使用”
 description: 本文档涵盖  [!DNL Data Workbench] 的终止使用的常见问题解答。
-source-git-commit: e1e9afda7c64a1343d533d0c200296efbe7872e8
+exl-id: 88a2c977-2c21-4bf8-9d58-24cb1ea2a075
+source-git-commit: d8a954bf197c87d3ef705bdf8bc67b9810c2502b
 workflow-type: ht
 source-wordcount: '380'
 ht-degree: 100%
 
 ---
-
 
 # Data Workbench 终止使用常见问题
 
@@ -19,7 +19,7 @@ Data Workbench 的终止使用日期是 **2023 年 12 月 31 日**。
 
 ## 为什么要停用 Data Workbench？
 
-随着 Adobe Experience Platform 的发布和持续改进，客户可以跨渠道合并数据，并在多个 Adobe 解决方案中使用这些数据。具体而言，通过 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 可获取跨渠道数据以对这些数据执行高级分析。
+随着 Adobe Experience Platform 的发布和持续改进，客户可以跨渠道合并数据，并在多个 Adobe 解决方案中使用这些数据。具体而言，通过 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans) 可获取跨渠道数据以对这些数据执行高级分析。
 
 当前可在 Adobe Experience Platform 解决方案中找到当前在 Data Workbench 中提供的大多数功能和用例。但是，在少数情况下，Data Workbench 功能无法与相应的 Adobe Experience Platform 解决方案一起复制。请联系您组织的 Adobe 客户经理以讨论功能或用例兼容性的具体方面。
 
@@ -35,9 +35,9 @@ Data Workbench 的终止使用日期是 **2023 年 12 月 31 日**。
 
 Adobe 目前提供以下 Adobe Experience Platform 解决方案满足与 Data Workbench 类似的需求：
 
-* [**Customer Journey Analytics**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)：从 Adobe Experience Platform 对多渠道数据使用归因、过滤、流量和流失等高级分析方法。
-* [**查询服务**](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)：从 Adobe Experience Platform 对数据执行 SQL 查询。
-* [**数据准备**](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)：映射、转换和验证数据，以便在其他 Adobe Experience Platform 解决方案中更有效地使用数据。
+* [**Customer Journey Analytics**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans)：从 Adobe Experience Platform 对多渠道数据使用归因、过滤、流量和流失等高级分析方法。
+* [**查询服务**](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)：从 Adobe Experience Platform 对数据执行 SQL 查询。
+* [**数据准备**](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hans)：映射、转换和验证数据，以便在其他 Adobe Experience Platform 解决方案中更有效地使用数据。
 
 ## 我可以从何处获得更多信息？
 
