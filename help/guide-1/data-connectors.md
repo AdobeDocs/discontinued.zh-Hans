@@ -1,21 +1,21 @@
 ---
-description: 了解如何中断Adobe Analytics Data Connectors集成。
-title: Analytics Data Connectors集成生命周期终止
+description: 了解 Adobe Analytics Data Connectors 集成的停运情况。
+title: Analytics Data Connectors 集成的生命周期终止
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 4bcdf13748a4723ec088d8fa6ca57c664b3e2a32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# AdobeData Connectors集成生命周期终止
+# Adobe Data Connectors 集成的生命周期终止
 
 **自 2021 年 8 月 19 日起**，Adobe 已停止支持 Data Connectors 集成，并已将其替换为 [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)。Adobe 致力于为客户和合作伙伴提供尽可能无缝的过渡体验。
 
 Adobe Analytics 旨在提供同类最佳的网络和营销分析，以满足客户的需求。随着技术和业务需求的发展，Adobe 努力地持续践行这一目标并实现最高标准。支持 Data Connectors 集成的 API 已无法满足这些标准，并且也无法应用于 Adobe 的现代技术基础设施中。
 
-请注意，本生命周期结束公告不适用于AdobeSource连接器，它是Adobe Experience Platform中的数据收集功能。 Adobe完全支持AdobeSource连接器(有时称为AdobeData Connectors)。
+请注意，此终止支持公告不适用于 Adobe Source Connectors，后者是 Adobe Experience Platform 中的一项数据收集功能。Adobe Source Connectors（有时也称为 Adobe Data Connectors）受到 Adobe 的全面支持。
 
 ## 为什么 Adobe 要终止使用此功能？
 
