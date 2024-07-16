@@ -3,7 +3,7 @@ description: 了解 Adobe Analytics Data Connectors 集成的停运情况。
 title: Analytics Data Connectors 集成的生命周期终止
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 4bcdf13748a4723ec088d8fa6ca57c664b3e2a32
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
