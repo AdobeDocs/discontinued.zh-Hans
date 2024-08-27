@@ -2,9 +2,9 @@
 title: Adobe Commerce 的 Channel Manager 扩展
 description: 了解 Adobe Commerce 的 Channel Manager 扩展何时达到生命周期终止。
 source-git-commit: 08c3b323fcff5630b5165946508689c5556e54b5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '81'
+ht-degree: 100%
 
 ---
 
