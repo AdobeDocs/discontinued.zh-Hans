@@ -1,17 +1,17 @@
 ---
-title: Adobe Commerce扩展的渠道管理器
-description: 了解Adobe Commerce Channel Manager扩展的生命周期何时结束。
+title: Adobe Commerce 的 Channel Manager 扩展
+description: 了解 Adobe Commerce 的 Channel Manager 扩展何时达到生命周期终止。
 source-git-commit: 08c3b323fcff5630b5165946508689c5556e54b5
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Commerce扩展的渠道管理器
+# Adobe Commerce 的 Channel Manager 扩展
 
-自2024年7月1日起，Adobe已停止使用Channel Manager扩展及其随附的与沃尔玛市场的集成。 Channel Manager扩展不再通过Adobe Commerce Marketplace提供。
+自2024年7月1日起，Adobe 已停用 Channel Manager 扩展及其与沃尔玛商城的相关集成。Channel Manager 扩展不再通过 Adobe Commerce Marketplace 提供。
 
-对于替代解决方案，我们建议您探索[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/)上提供的合作伙伴解决方案和第三方扩展，以找到最适合您需求的解决方案。
+对于替代解决方案，我们建议您探索合作伙伴解决方案和在[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/)上提供的第三方扩展，以找到最适合您需求的解决方案。
 
