@@ -1,12 +1,12 @@
 ---
 keywords: Adobe experience cloud；Adobe Experience Cloud；device co-op；Device Co-op；生命周期结束
-title: “[!DNL Device Co-op] 生命周期结束常见问题解答”
+title: '[!DNL Device Co-op] 生命周期结束常见问题解答'
 description: 了解 Device Co-op 的生命周期结束计划。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 4138a53d2aec43caba319de302593ed9ece36c38
+source-git-commit: 2e33e76c0fbb45661fd92297b0f91e5b8f304b6c
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 - [[!DNL Adobe Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 - [[!DNL Adobe Audience Manager]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/aam-overview.html?lang=zh-Hans)
-- [[!DNL Adobe Advertising Cloud]](https://experienceleague.adobe.com/docs/advertising-cloud.html?lang=zh-Hans)
+- [[!DNL Adobe Advertising]](https://experienceleague.adobe.com/docs/advertising)
 - [[!DNL Adobe Target]](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans)
 
 ## 我有哪些选择可以替代 [!DNL Device Co-op]？
