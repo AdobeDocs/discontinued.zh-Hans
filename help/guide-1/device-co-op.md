@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # [!DNL Device Co-op] 生命周期结束常见问题解答
 
-本文档提供有关 [!DNL Adobe Experience Cloud Device Co-op] 生命周期结束 (EOL) 计划的常见问题解答。 当该计划生效时，Adobe 将在 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)和[优先产品更新](https://www.adobe.com/cn/subscription/priority-product-update.html)中提供提前通知。
+本文档提供有关 [!DNL Adobe Experience Cloud Device Co-op] 生命周期结束 (EOL) 计划的常见问题解答。 当该计划生效时，Adobe 将在 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)和[优先产品更新](https://www.adobe.com/cn/subscription/priority-product-update.html)中提供提前通知。
 
 [!DNL Device Co-op] 是一个让参与者共同努力以更好地识别跨数字接触点的消费者的计划，同时确保最高水平的隐私和透明度。
 
@@ -57,7 +57,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ### [!DNL Analytics]
 
-您可以使用[!DNL Analytics][跨设备分析 (CDA)](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 功能，因为它同时支持 Adobe Experience Platform 标识服务[专用图形](https://experienceleague.adobe.com/docs/analytics/components/cda/device-graph.html?lang=zh-Hans)和[基于字段的拼接](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=zh-Hans)。
+您可以使用[!DNL Analytics][跨设备分析 (CDA)](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hans) 功能，因为它同时支持 Adobe Experience Platform 标识服务[专用图形](https://experienceleague.adobe.com/docs/analytics/components/cda/device-graph.html?lang=zh-Hans)和[基于字段的拼接](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=zh-Hans)。
 
 ### [!DNL Audience Manager]
 
@@ -81,9 +81,9 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ## 哪些现有功能和实施可以帮助我为无 cookie 的未来做好准备？
 
-您现有的访客 ID 服务实施为 Analytics [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 提供支持。 如果您现有的声明 ID 是经过哈希处理的电子邮件，则可用于支持以下功能：
+您现有的访客 ID 服务实施为 Analytics [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hans) 提供支持。 如果您现有的声明 ID 是经过哈希处理的电子邮件，则可用于支持以下功能：
 
-- [!DNL Audience Manager] [以人为本的目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)。
+- [!DNL Audience Manager] [以人为本的目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html?lang=zh-Hans)。
 - [Experience Platform 区段匹配 (Beta)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=zh-Hans)。
 
 ## 我可以保留我的数据吗[!DNL Device Co-op]？
