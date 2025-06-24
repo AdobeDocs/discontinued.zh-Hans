@@ -1,15 +1,16 @@
 ---
 title: 隐藏测试
-description: 这是一个隐藏的测试
+description: 这是隐藏测试
 hide: true
 hidefromtoc: true
-source-git-commit: 9ef7d52223c952376e47da8ef21738b7e4ea1056
-workflow-type: tm+mt
+exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
+source-git-commit: c909d96655e948d8d82ace5c1a349b385d7db3b3
+workflow-type: ht
 source-wordcount: '14'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 隐藏测试
 
-这是一个隐藏的测试。
+这是隐藏测试。

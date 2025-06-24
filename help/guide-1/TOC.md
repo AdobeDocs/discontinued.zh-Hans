@@ -3,9 +3,9 @@ user-guide-title: ' [!DNL Adobe Experience Cloud] 的停产产品'
 breadcrumb-title: 停产产品
 user-guide-description: ' [!DNL Adobe Experience Cloud] 的停产产品列表。'
 source-git-commit: 9ef7d52223c952376e47da8ef21738b7e4ea1056
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '38'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
