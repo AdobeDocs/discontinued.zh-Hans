@@ -1,182 +1,182 @@
 ---
-title: 隐藏的故障排除测试
+title: 隐藏故障排除测试
 description: 这是一个隐藏的故障排除测试
 hide: true
 hidefromtoc: true
 source-git-commit: 388f61fa721e0fedf858634dde807baeadde06f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2876'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# AEM中的故障排除
+# AEM 中的故障排除
 
 
 ## 单行表
 
-| AEM Sites疑难解答 |
+| AEM Sites 故障排除 |
 |--- |
-| + [(Dynamic Media)旋转集在AEM Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715)中卡在处理状态 |
-| + [数字资源管理(DAM)呈现版本与AEM中的原始文件不匹配](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) |
-| + [未在AEMaaCS](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873)中生成智能裁剪演绎版 |
-| + [(Dynamic Media)修复AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533)中的视频上传、处理和渲染问题 |
-| + [(Asset Link) Adobe Asset Link使链接在使用InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922)时处于无法访问状态 |
-| + AEMaaCS中的Dynamic Media与DAM卡视图之间视频缩略图不匹配[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) |
-| + [(Dynamic Media)使用API](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902)从Dynamic Media导出资源和元数据 |
-| + [AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610)对大型MP4文件的资源处理失败 |
-| + [(Dynamic Media) Dynamic Media视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) |
-| + [(Dynamic Media with OpenAPI)基于IMS用户组通过开放API激活对Dynamic Media的受限Assets访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) |
-| + [当具有ZIP压缩格式的Tiff文件上载到AEM Assets时，不会生成任何演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) |
-| + [AEM在10万个令牌之后截断从大型PDF提取的文本](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) |
-| + [(Dynamic Media)正在更改DM Assets](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628)的Dynamic Media URL |
-| + [解决AEMaaCS中非管理员用户的元数据架构可见性问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) |
-| + Dynamic Media中TIFF图像演绎版的[(Dynamic Media)背景颜色更改问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) |
-| + [AEMaaCS资产轮换问题使后续轮换不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) |
-| + [(Brand Portal)使用OAuth服务器到服务器凭据激活Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-22074) |
-| + [(Dynamic Media)解决Adobe Experience Manager 6.5 Dynamic Media中智能裁剪损坏的图像问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) |
-| + [提高Photoshop Firefly API集成的单部分资源上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) |
-| + [(Dynamic Media)为PDF文件解决AEM环境中的Dynamic Media资源名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) |
-| + [某些图像在Adobe Experience Manager (AEM) as a Cloud Service - Asset](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233)中未显示缩略图演绎版 |
-| + [(Dynamic Media) Dynamic Media常规设置页面未打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) |
-| + [(Dynamic Media)在AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197)中使用Dynamic Media解决视频文件中的音频问题 |
-| + [自动标记AEM as a Cloud Service中新上传的资源](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) |
-| + [智能标记功能在AEM中从JWT迁移到OAuth后不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) |
-| + [解决AEM Managed Services中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) |
-| + [(Brand Portal)共享链接下载问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25771) |
-| + AEM Dynamic Media中的[(Dynamic Media)资源处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) |
-| + Adobe Experience Manager (AEM) Dynamic Media中的[(Dynamic Media)资源同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) |
-| + [正在更新AEM as a Cloud Service中视频资源的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) |
-| + [Adobe Experience Manager (AEM) Assets中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) |
-| + [将资源文件夹拖放到AEM Assets Web UI失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) |
-| + [(Brand Portal) Brand Portal编辑器和查看器看不到任何图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-20177) |
-| + [(Dynamic Media)正在解决AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525)中的资源处理问题 |
-| + [Adobe Experience Manager as a Cloud Service中大型PDF的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) |
-| + [(Asset Link)解决InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562)中的Adobe Experience Manager (AEM)资源链接连接问题 |
-| + [(Asset Link) Adobe Asset Link插件网络错误：无法访问服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) |
-| + [(Dynamic Media) Dynamic Media同步用户建议](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) |
+| + [(Dynamic Media) AEM Dynamic Media 中旋转集卡在处理状态](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715) |
+| + [AEM 中数字资产管理 (DAM) 演绎版与原始文件不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) |
+| + [AEMaaCS 中未生成智能裁剪演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873) |
+| + [(Dynamic Media) 修复 AEM 中视频上传、处理与渲染失败的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533) |
+| + [(Asset Link) 使用 InDesign 时，Adobe Asset Link 导致链接状态不可访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922) |
+| + [AEMaaCS 中 Dynamic Media 与 DAM 卡片视图的视频缩略图不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) |
+| + [(Dynamic Media) 使用 API 从动态媒体导出资产和元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902) |
+| + [AEM as a Cloud Service 中上传大 MP4 文件时资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610) |
+| + [(Dynamic Media) Dynamic Media 视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) |
+| + [（带 OpenAPI 的 Dynamic Media）根据 IMS 用户组将受限的 Assets 访问权限激活到带 Open API 的 Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) |
+| + [当 ZIP 压缩格式的 Tiff 文件上传到 AEM Assets 时，不生成演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) |
+| + [超过 100,000 个令牌后从大 PDF 中提取文本时 AEM 将其截断](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) |
+| + [(Dynamic Media) 更改 DM 资产的动态媒体 URL](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628) |
+| + [解决 AEMaaCS 中非管理员用户无法查看元数据架构的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) |
+| + [(Dynamic Media) Dynamic Media 中 TIFF 图像演绎版背景色变更问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) |
+| + [AEMaaCS 资产旋转问题使后续操作不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) |
+| + [(Brand Portal) 使用 OAuth 服务器到服务器凭据激活 Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-22074) |
+| + [(Dynamic Media) 解决 Adobe Experience Manager 6.5 Dynamic Media 中点击智能裁剪后图像无法显示的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) |
+| + [增加 Photoshop Firefly API 集成的单部分资产上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) |
+| + [(Dynamic Media) 解决 AEM 环境中 PDF 文件的动态媒体资产名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) |
+| + [某些图像在 Adobe Experience Manager (AEM) as a Cloud Service - Asset 中不显示缩略图演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233) |
+| + [(Dynamic Media) 动态媒体常规设置页面不打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) |
+| + [(Dynamic Media) 通过 AEM 中的 Dynamic Media 解决视频文件中的音频问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197) |
+| + [在 AEM as a Cloud Service 中自动标记新上传的资产](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) |
+| + [在 AEM 中从 JWT 迁移到 OAuth 后，智能标记功能不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) |
+| + [解决 AEM Managed Services 中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) |
+| + [(Brand Portal) 共享链接下载问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25771) |
+| + [(Dynamic Media) AEM Dynamic Media 中的资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) |
+| + [(Dynamic Media) Adobe Experience Manager (AEM) Dynamic Media 中的资产同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) |
+| + [更新 AEM as a Cloud Service 中视频资产的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) |
+| + [Adobe Experience Manager (AEM) Assets 中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) |
+| + [将资产文件夹拖放到 AEM Assets Web UI 时失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) |
+| + [(Brand Portal) Brand Portal 编辑器和查看器无法看到任何图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-20177) |
+| + [(Dynamic Media) 解决 AEM as a Cloud Service 中的资产处理问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525) |
+| + [Adobe Experience Manager as a Cloud Service 中大 PDF 的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) |
+| + [(Asset Link) 解决 InDesign 中的 Adobe Experience Manager (AEM) 资产链接连接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562) |
+| + [(Asset Link) Adobe Asset Link 插件网络错误：服务器不可到达](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) |
+| + [(Dynamic Media) 动态媒体同步用户推荐](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) |
 
-| AEM Assets疑难解答 |
+| AEM Assets 故障排除 |
 |--- |
-| + AEM的资源下载ZIP文件中缺少[演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27140) |
-| + [内容片段未包含在AEM Assets许可证中](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26616) |
-| + [尽管具有读取权限，但在Assets视图中仍受限制发表评论](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26928) |
-| + [(Dynamic Media)旋转集在AEM Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715)中卡在处理状态 |
-| + [数字资源管理(DAM)呈现版本与AEM中的原始文件不匹配](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) |
-| + [未在AEMaaCS](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873)中生成智能裁剪演绎版 |
-| + [(Dynamic Media)修复AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533)中的视频上传、处理和渲染问题 |
-| + [(Asset Link) Adobe Asset Link使链接在使用InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922)时处于无法访问状态 |
-| + AEMaaCS中的Dynamic Media与DAM卡视图之间视频缩略图不匹配[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) |
-| + [(Dynamic Media)使用API](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902)从Dynamic Media导出资源和元数据 |
-| + [AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610)对大型MP4文件的资源处理失败 |
-| + [(Dynamic Media) Dynamic Media视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) |
-| + [(Dynamic Media with OpenAPI)基于IMS用户组通过开放API激活对Dynamic Media的受限Assets访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) |
-| + [当具有ZIP压缩格式的Tiff文件上载到AEM Assets时，不会生成任何演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) |
-| + [AEM在10万个令牌之后截断从大型PDF提取的文本](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) |
-| + [(Dynamic Media)正在更改DM Assets](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628)的Dynamic Media URL |
-| + [解决AEMaaCS中非管理员用户的元数据架构可见性问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) |
-| + Dynamic Media中TIFF图像演绎版的[(Dynamic Media)背景颜色更改问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) |
-| + [AEMaaCS资产轮换问题使后续轮换不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) |
-| + [(Dynamic Media)解决Adobe Experience Manager 6.5 Dynamic Media中智能裁剪损坏的图像问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) |
-| + [提高Photoshop Firefly API集成的单部分资源上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) |
-| + [(Dynamic Media)为PDF文件解决AEM环境中的Dynamic Media资源名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) |
-| + [某些图像在Adobe Experience Manager (AEM) as a Cloud Service - Asset](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233)中未显示缩略图演绎版 |
-| + [(Dynamic Media) Dynamic Media常规设置页面未打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) |
-| + [(Dynamic Media)在AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197)中使用Dynamic Media解决视频文件中的音频问题 |
-| + [自动标记AEM as a Cloud Service中新上传的资源](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) |
-| + [智能标记功能在AEM中从JWT迁移到OAuth后不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) |
-| + [解决AEM Managed Services中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) |
-| + AEM Dynamic Media中的[(Dynamic Media)资源处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) |
-| + Adobe Experience Manager (AEM) Dynamic Media中的[(Dynamic Media)资源同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) |
-| + [正在更新AEM as a Cloud Service中视频资源的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) |
-| + [Adobe Experience Manager (AEM) Assets中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) |
-| + [将资源文件夹拖放到AEM Assets Web UI失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) |
-| + [(Dynamic Media)正在解决AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525)中的资源处理问题 |
-| + [Adobe Experience Manager as a Cloud Service中大型PDF的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) |
-| + [(Asset Link)解决InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562)中的Adobe Experience Manager (AEM)资源链接连接问题 |
-| + [(Asset Link) Adobe Asset Link插件网络错误：无法访问服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) |
-| + [(Dynamic Media) Dynamic Media同步用户建议](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) |
+| + [AEM 中资产下载 ZIP 文件缺少演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27140) |
+| + [AEM Assets 许可证中未包含内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26616) |
+| + [尽管有读取权限，但在 Assets 视图中注释受限](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26928) |
+| + [(Dynamic Media) AEM Dynamic Media 中旋转集卡在处理状态](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715) |
+| + [AEM 中数字资产管理 (DAM) 演绎版与原始文件不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) |
+| + [AEMaaCS 中未生成智能裁剪演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873) |
+| + [(Dynamic Media) 修复 AEM 中视频上传、处理与渲染失败的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533) |
+| + [(Asset Link) 使用 InDesign 时，Adobe Asset Link 导致链接状态不可访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922) |
+| + [AEMaaCS 中 Dynamic Media 与 DAM 卡片视图的视频缩略图不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) |
+| + [(Dynamic Media) 使用 API 从动态媒体导出资产和元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902) |
+| + [AEM as a Cloud Service 中上传大 MP4 文件时资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610) |
+| + [(Dynamic Media) Dynamic Media 视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) |
+| + [（带 OpenAPI 的 Dynamic Media）根据 IMS 用户组将受限的 Assets 访问权限激活到带 Open API 的 Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) |
+| + [当 ZIP 压缩格式的 Tiff 文件上传到 AEM Assets 时，不生成演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) |
+| + [超过 100,000 个令牌后从大 PDF 中提取文本时 AEM 将其截断](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) |
+| + [(Dynamic Media) 更改 DM 资产的动态媒体 URL](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628) |
+| + [解决 AEMaaCS 中非管理员用户无法查看元数据架构的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) |
+| + [(Dynamic Media) Dynamic Media 中 TIFF 图像演绎版背景色变更问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) |
+| + [AEMaaCS 资产旋转问题使后续操作不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) |
+| + [(Dynamic Media) 解决 Adobe Experience Manager 6.5 Dynamic Media 中点击智能裁剪后图像无法显示的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) |
+| + [增加 Photoshop Firefly API 集成的单部分资产上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) |
+| + [(Dynamic Media) 解决 AEM 环境中 PDF 文件的动态媒体资产名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) |
+| + [某些图像在 Adobe Experience Manager (AEM) as a Cloud Service - Asset 中不显示缩略图演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233) |
+| + [(Dynamic Media) 动态媒体常规设置页面不打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) |
+| + [(Dynamic Media) 通过 AEM 中的 Dynamic Media 解决视频文件中的音频问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197) |
+| + [在 AEM as a Cloud Service 中自动标记新上传的资产](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) |
+| + [在 AEM 中从 JWT 迁移到 OAuth 后，智能标记功能不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) |
+| + [解决 AEM Managed Services 中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) |
+| + [(Dynamic Media) AEM Dynamic Media 中的资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) |
+| + [(Dynamic Media) Adobe Experience Manager (AEM) Dynamic Media 中的资产同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) |
+| + [更新 AEM as a Cloud Service 中视频资产的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) |
+| + [Adobe Experience Manager (AEM) Assets 中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) |
+| + [将资产文件夹拖放到 AEM Assets Web UI 时失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) |
+| + [(Dynamic Media) 解决 AEM as a Cloud Service 中的资产处理问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525) |
+| + [Adobe Experience Manager as a Cloud Service 中大 PDF 的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) |
+| + [(Asset Link) 解决 InDesign 中的 Adobe Experience Manager (AEM) 资产链接连接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562) |
+| + [(Asset Link) Adobe Asset Link 插件网络错误：服务器不可到达](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) |
+| + [(Dynamic Media) 动态媒体同步用户推荐](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) |
 
-| AEM Forms疑难解答 |
+| AEM Forms 故障排除 |
 |--- |
-| + [(Dynamic Media)旋转集在AEM Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715)中卡在处理状态 |
-| + [数字资源管理(DAM)呈现版本与AEM中的原始文件不匹配](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) |
-| + [未在AEMaaCS](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873)中生成智能裁剪演绎版 |
-| + [(Dynamic Media)修复AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533)中的视频上传、处理和渲染问题 |
-| + [(Asset Link) Adobe Asset Link使链接在使用InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922)时处于无法访问状态 |
-| + AEMaaCS中的Dynamic Media与DAM卡视图之间视频缩略图不匹配[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) |
-| + [(Dynamic Media)使用API](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902)从Dynamic Media导出资源和元数据 |
-| + [AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610)对大型MP4文件的资源处理失败 |
-| + [(Dynamic Media) Dynamic Media视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) |
-| + [(Dynamic Media with OpenAPI)基于IMS用户组通过开放API激活对Dynamic Media的受限Assets访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) |
-| + [当具有ZIP压缩格式的Tiff文件上载到AEM Assets时，不会生成任何演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) |
-| + [AEM在10万个令牌之后截断从大型PDF提取的文本](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) |
-| + [(Dynamic Media)正在更改DM Assets](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628)的Dynamic Media URL |
-| + [解决AEMaaCS中非管理员用户的元数据架构可见性问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) |
-| + Dynamic Media中TIFF图像演绎版的[(Dynamic Media)背景颜色更改问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) |
-| + [AEMaaCS资产轮换问题使后续轮换不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) |
-| + [(Brand Portal)使用OAuth服务器到服务器凭据激活Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-22074) |
-| + [(Dynamic Media)解决Adobe Experience Manager 6.5 Dynamic Media中智能裁剪损坏的图像问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) |
-| + [提高Photoshop Firefly API集成的单部分资源上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) |
-| + [(Dynamic Media)为PDF文件解决AEM环境中的Dynamic Media资源名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) |
-| + [某些图像在Adobe Experience Manager (AEM) as a Cloud Service - Asset](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233)中未显示缩略图演绎版 |
-| + [(Dynamic Media) Dynamic Media常规设置页面未打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) |
-| + [(Dynamic Media)在AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197)中使用Dynamic Media解决视频文件中的音频问题 |
-| + [自动标记AEM as a Cloud Service中新上传的资源](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) |
-| + [智能标记功能在AEM中从JWT迁移到OAuth后不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) |
-| + [解决AEM Managed Services中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) |
-| + [(Brand Portal)共享链接下载问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25771) |
-| + AEM Dynamic Media中的[(Dynamic Media)资源处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) |
-| + Adobe Experience Manager (AEM) Dynamic Media中的[(Dynamic Media)资源同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) |
-| + [正在更新AEM as a Cloud Service中视频资源的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) |
-| + [Adobe Experience Manager (AEM) Assets中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) |
-| + [将资源文件夹拖放到AEM Assets Web UI失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) |
-| + [(Brand Portal) Brand Portal编辑器和查看器看不到任何图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-20177) |
-| + [(Dynamic Media)正在解决AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525)中的资源处理问题 |
-| + [Adobe Experience Manager as a Cloud Service中大型PDF的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) |
-| + [(Asset Link)解决InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562)中的Adobe Experience Manager (AEM)资源链接连接问题 |
-| + [(Asset Link) Adobe Asset Link插件网络错误：无法访问服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) |
-| + [(Dynamic Media) Dynamic Media同步用户建议](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) |
+| + [(Dynamic Media) AEM Dynamic Media 中旋转集卡在处理状态](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715) |
+| + [AEM 中数字资产管理 (DAM) 演绎版与原始文件不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) |
+| + [AEMaaCS 中未生成智能裁剪演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873) |
+| + [(Dynamic Media) 修复 AEM 中视频上传、处理与渲染失败的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533) |
+| + [(Asset Link) 使用 InDesign 时，Adobe Asset Link 导致链接状态不可访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922) |
+| + [AEMaaCS 中 Dynamic Media 与 DAM 卡片视图的视频缩略图不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) |
+| + [(Dynamic Media) 使用 API 从动态媒体导出资产和元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902) |
+| + [AEM as a Cloud Service 中上传大 MP4 文件时资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610) |
+| + [(Dynamic Media) Dynamic Media 视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) |
+| + [（带 OpenAPI 的 Dynamic Media）根据 IMS 用户组将受限的 Assets 访问权限激活到带 Open API 的 Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) |
+| + [当 ZIP 压缩格式的 Tiff 文件上传到 AEM Assets 时，不生成演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) |
+| + [超过 100,000 个令牌后从大 PDF 中提取文本时 AEM 将其截断](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) |
+| + [(Dynamic Media) 更改 DM 资产的动态媒体 URL](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628) |
+| + [解决 AEMaaCS 中非管理员用户无法查看元数据架构的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) |
+| + [(Dynamic Media) Dynamic Media 中 TIFF 图像演绎版背景色变更问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) |
+| + [AEMaaCS 资产旋转问题使后续操作不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) |
+| + [(Brand Portal) 使用 OAuth 服务器到服务器凭据激活 Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-22074) |
+| + [(Dynamic Media) 解决 Adobe Experience Manager 6.5 Dynamic Media 中点击智能裁剪后图像无法显示的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) |
+| + [增加 Photoshop Firefly API 集成的单部分资产上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) |
+| + [(Dynamic Media) 解决 AEM 环境中 PDF 文件的动态媒体资产名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) |
+| + [某些图像在 Adobe Experience Manager (AEM) as a Cloud Service - Asset 中不显示缩略图演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233) |
+| + [(Dynamic Media) 动态媒体常规设置页面不打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) |
+| + [(Dynamic Media) 通过 AEM 中的 Dynamic Media 解决视频文件中的音频问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197) |
+| + [在 AEM as a Cloud Service 中自动标记新上传的资产](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) |
+| + [在 AEM 中从 JWT 迁移到 OAuth 后，智能标记功能不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) |
+| + [解决 AEM Managed Services 中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) |
+| + [(Brand Portal) 共享链接下载问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25771) |
+| + [(Dynamic Media) AEM Dynamic Media 中的资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) |
+| + [(Dynamic Media) Adobe Experience Manager (AEM) Dynamic Media 中的资产同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) |
+| + [更新 AEM as a Cloud Service 中视频资产的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) |
+| + [Adobe Experience Manager (AEM) Assets 中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) |
+| + [将资产文件夹拖放到 AEM Assets Web UI 时失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) |
+| + [(Brand Portal) Brand Portal 编辑器和查看器无法看到任何图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-20177) |
+| + [(Dynamic Media) 解决 AEM as a Cloud Service 中的资产处理问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525) |
+| + [Adobe Experience Manager as a Cloud Service 中大 PDF 的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) |
+| + [(Asset Link) 解决 InDesign 中的 Adobe Experience Manager (AEM) 资产链接连接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562) |
+| + [(Asset Link) Adobe Asset Link 插件网络错误：服务器不可到达](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) |
+| + [(Dynamic Media) 动态媒体同步用户推荐](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) |
 
 ## 三列表
 
-| AEM Sites疑难解答 | AEM Assets疑难解答 | AEM Forms疑难解答 |
+| AEM Sites 故障排除 | AEM Assets 故障排除 | AEM Forms 故障排除 |
 |--- |--- |--- |
-| + [(Dynamic Media)旋转集在AEM Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715)中卡在处理状态 | + AEM的资源下载ZIP文件中缺少[演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27140) | + [(Dynamic Media)旋转集在AEM Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715)中卡在处理状态 |
-| + [数字资源管理(DAM)呈现版本与AEM中的原始文件不匹配](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) | + [内容片段未包含在AEM Assets许可证中](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26616) | + [数字资源管理(DAM)呈现版本与AEM中的原始文件不匹配](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) |
-| + [未在AEMaaCS](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873)中生成智能裁剪演绎版 | + [尽管具有读取权限，但在Assets视图中仍受限制发表评论](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26928) | + [未在AEMaaCS](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873)中生成智能裁剪演绎版 |
-| + [(Dynamic Media)修复AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533)中的视频上传、处理和渲染问题 | + [(Dynamic Media)旋转集在AEM Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715)中卡在处理状态 | + [(Dynamic Media)修复AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533)中的视频上传、处理和渲染问题 |
-| + [(Asset Link) Adobe Asset Link使链接在使用InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922)时处于无法访问状态 | + [数字资源管理(DAM)呈现版本与AEM中的原始文件不匹配](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) | + [(Asset Link) Adobe Asset Link使链接在使用InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922)时处于无法访问状态 |
-| + AEMaaCS中的Dynamic Media与DAM卡视图之间视频缩略图不匹配[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) | + [未在AEMaaCS](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873)中生成智能裁剪演绎版 | + AEMaaCS中的Dynamic Media与DAM卡视图之间视频缩略图不匹配[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) |
-| + [(Dynamic Media)使用API](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902)从Dynamic Media导出资源和元数据 | + [(Dynamic Media)修复AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533)中的视频上传、处理和渲染问题 | + [(Dynamic Media)使用API](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902)从Dynamic Media导出资源和元数据 |
-| + [AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610)对大型MP4文件的资源处理失败 | + [(Asset Link) Adobe Asset Link使链接在使用InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922)时处于无法访问状态 | + [AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610)对大型MP4文件的资源处理失败 |
-| + [(Dynamic Media) Dynamic Media视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) | + AEMaaCS中的Dynamic Media与DAM卡视图之间视频缩略图不匹配[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) | + [(Dynamic Media) Dynamic Media视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) |
-| + [(Dynamic Media with OpenAPI)基于IMS用户组通过开放API激活对Dynamic Media的受限Assets访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) | + [(Dynamic Media)使用API](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902)从Dynamic Media导出资源和元数据 | + [(Dynamic Media with OpenAPI)基于IMS用户组通过开放API激活对Dynamic Media的受限Assets访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) |
-| + [当具有ZIP压缩格式的Tiff文件上载到AEM Assets时，不会生成任何演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) | + [AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610)对大型MP4文件的资源处理失败 | + [当具有ZIP压缩格式的Tiff文件上载到AEM Assets时，不会生成任何演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) |
-| + [AEM在10万个令牌之后截断从大型PDF提取的文本](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) | + [(Dynamic Media) Dynamic Media视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) | + [AEM在10万个令牌之后截断从大型PDF提取的文本](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) |
-| + [(Dynamic Media)正在更改DM Assets](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628)的Dynamic Media URL | + [(Dynamic Media with OpenAPI)基于IMS用户组通过开放API激活对Dynamic Media的受限Assets访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) | + [(Dynamic Media)正在更改DM Assets](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628)的Dynamic Media URL |
-| + [解决AEMaaCS中非管理员用户的元数据架构可见性问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) | + [当具有ZIP压缩格式的Tiff文件上载到AEM Assets时，不会生成任何演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) | + [解决AEMaaCS中非管理员用户的元数据架构可见性问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) |
-| + Dynamic Media中TIFF图像演绎版的[(Dynamic Media)背景颜色更改问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) | + [AEM在10万个令牌之后截断从大型PDF提取的文本](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) | + Dynamic Media中TIFF图像演绎版的[(Dynamic Media)背景颜色更改问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) |
-| + [AEMaaCS资产轮换问题使后续轮换不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) | + [(Dynamic Media)正在更改DM Assets](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628)的Dynamic Media URL | + [AEMaaCS资产轮换问题使后续轮换不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) |
-| + [(Brand Portal)使用OAuth服务器到服务器凭据激活Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-22074) | + [解决AEMaaCS中非管理员用户的元数据架构可见性问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) | + [(Brand Portal)使用OAuth服务器到服务器凭据激活Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-22074) |
-| + [(Dynamic Media)解决Adobe Experience Manager 6.5 Dynamic Media中智能裁剪损坏的图像问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) | + Dynamic Media中TIFF图像演绎版的[(Dynamic Media)背景颜色更改问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) | + [(Dynamic Media)解决Adobe Experience Manager 6.5 Dynamic Media中智能裁剪损坏的图像问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) |
-| + [提高Photoshop Firefly API集成的单部分资源上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) | + [AEMaaCS资产轮换问题使后续轮换不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) | + [提高Photoshop Firefly API集成的单部分资源上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) |
-| + [(Dynamic Media)为PDF文件解决AEM环境中的Dynamic Media资源名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) | + [(Dynamic Media)解决Adobe Experience Manager 6.5 Dynamic Media中智能裁剪损坏的图像问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) | + [(Dynamic Media)为PDF文件解决AEM环境中的Dynamic Media资源名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) |
-| + [某些图像在Adobe Experience Manager (AEM) as a Cloud Service - Asset](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233)中未显示缩略图演绎版 | + [提高Photoshop Firefly API集成的单部分资源上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) | + [某些图像在Adobe Experience Manager (AEM) as a Cloud Service - Asset](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233)中未显示缩略图演绎版 |
-| + [(Dynamic Media) Dynamic Media常规设置页面未打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) | + [(Dynamic Media)为PDF文件解决AEM环境中的Dynamic Media资源名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) | + [(Dynamic Media) Dynamic Media常规设置页面未打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) |
-| + [(Dynamic Media)在AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197)中使用Dynamic Media解决视频文件中的音频问题 | + [某些图像在Adobe Experience Manager (AEM) as a Cloud Service - Asset](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233)中未显示缩略图演绎版 | + [(Dynamic Media)在AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197)中使用Dynamic Media解决视频文件中的音频问题 |
-| + [自动标记AEM as a Cloud Service中新上传的资源](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) | + [(Dynamic Media) Dynamic Media常规设置页面未打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) | + [自动标记AEM as a Cloud Service中新上传的资源](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) |
-| + [智能标记功能在AEM中从JWT迁移到OAuth后不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) | + [(Dynamic Media)在AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197)中使用Dynamic Media解决视频文件中的音频问题 | + [智能标记功能在AEM中从JWT迁移到OAuth后不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) |
-| + [解决AEM Managed Services中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) | + [自动标记AEM as a Cloud Service中新上传的资源](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) | + [解决AEM Managed Services中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) |
-| + [(Brand Portal)共享链接下载问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25771) | + [智能标记功能在AEM中从JWT迁移到OAuth后不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) | + [(Brand Portal)共享链接下载问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25771) |
-| + AEM Dynamic Media中的[(Dynamic Media)资源处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) | + [解决AEM Managed Services中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) | + AEM Dynamic Media中的[(Dynamic Media)资源处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) |
-| + Adobe Experience Manager (AEM) Dynamic Media中的[(Dynamic Media)资源同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) | + AEM Dynamic Media中的[(Dynamic Media)资源处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) | + Adobe Experience Manager (AEM) Dynamic Media中的[(Dynamic Media)资源同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) |
-| + [正在更新AEM as a Cloud Service中视频资源的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) | + Adobe Experience Manager (AEM) Dynamic Media中的[(Dynamic Media)资源同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) | + [正在更新AEM as a Cloud Service中视频资源的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) |
-| + [Adobe Experience Manager (AEM) Assets中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) | + [正在更新AEM as a Cloud Service中视频资源的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) | + [Adobe Experience Manager (AEM) Assets中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) |
-| + [将资源文件夹拖放到AEM Assets Web UI失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) | + [Adobe Experience Manager (AEM) Assets中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) | + [将资源文件夹拖放到AEM Assets Web UI失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) |
-| + [(Brand Portal) Brand Portal编辑器和查看器看不到任何图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-20177) | + [将资源文件夹拖放到AEM Assets Web UI失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) | + [(Brand Portal) Brand Portal编辑器和查看器看不到任何图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-20177) |
-| + [(Dynamic Media)正在解决AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525)中的资源处理问题 | + [(Dynamic Media)正在解决AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525)中的资源处理问题 | + [(Dynamic Media)正在解决AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525)中的资源处理问题 |
-| + [Adobe Experience Manager as a Cloud Service中大型PDF的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) | + [Adobe Experience Manager as a Cloud Service中大型PDF的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) | + [Adobe Experience Manager as a Cloud Service中大型PDF的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) |
-| + [(Asset Link)解决InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562)中的Adobe Experience Manager (AEM)资源链接连接问题 | + [(Asset Link)解决InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562)中的Adobe Experience Manager (AEM)资源链接连接问题 | + [(Asset Link)解决InDesign](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562)中的Adobe Experience Manager (AEM)资源链接连接问题 |
-| + [(Asset Link) Adobe Asset Link插件网络错误：无法访问服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) | + [(Asset Link) Adobe Asset Link插件网络错误：无法访问服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) | + [(Asset Link) Adobe Asset Link插件网络错误：无法访问服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) |
-| + [(Dynamic Media) Dynamic Media同步用户建议](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) | + [(Dynamic Media) Dynamic Media同步用户建议](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) | + [(Dynamic Media) Dynamic Media同步用户建议](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) |
+| + [(Dynamic Media) AEM Dynamic Media 中旋转集卡在处理状态](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715) | + [AEM 中资产下载 ZIP 文件缺少演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27140) | + [(Dynamic Media) AEM Dynamic Media 中旋转集卡在处理状态](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715) |
+| + [AEM 中数字资产管理 (DAM) 演绎版与原始文件不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) | + [AEM Assets 许可证中未包含内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26616) | + [AEM 中数字资产管理 (DAM) 演绎版与原始文件不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) |
+| + [AEMaaCS 中未生成智能裁剪演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873) | + [尽管有读取权限，但在 Assets 视图中注释受限](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26928) | + [AEMaaCS 中未生成智能裁剪演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873) |
+| + [(Dynamic Media) 修复 AEM 中视频上传、处理与渲染失败的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533) | + [(Dynamic Media) AEM Dynamic Media 中旋转集卡在处理状态](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26715) | + [(Dynamic Media) 修复 AEM 中视频上传、处理与渲染失败的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533) |
+| + [(Asset Link) 使用 InDesign 时，Adobe Asset Link 导致链接状态不可访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922) | + [AEM 中数字资产管理 (DAM) 演绎版与原始文件不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26639) | + [(Asset Link) 使用 InDesign 时，Adobe Asset Link 导致链接状态不可访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922) |
+| + [AEMaaCS 中 Dynamic Media 与 DAM 卡片视图的视频缩略图不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) | + [AEMaaCS 中未生成智能裁剪演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26873) | + [AEMaaCS 中 Dynamic Media 与 DAM 卡片视图的视频缩略图不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) |
+| + [(Dynamic Media) 使用 API 从动态媒体导出资产和元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902) | + [(Dynamic Media) 修复 AEM 中视频上传、处理与渲染失败的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26533) | + [(Dynamic Media) 使用 API 从动态媒体导出资产和元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902) |
+| + [AEM as a Cloud Service 中上传大 MP4 文件时资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610) | + [(Asset Link) 使用 InDesign 时，Adobe Asset Link 导致链接状态不可访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26922) | + [AEM as a Cloud Service 中上传大 MP4 文件时资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610) |
+| + [(Dynamic Media) Dynamic Media 视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) | + [AEMaaCS 中 Dynamic Media 与 DAM 卡片视图的视频缩略图不一致](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26677) | + [(Dynamic Media) Dynamic Media 视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) |
+| + [（带 OpenAPI 的 Dynamic Media）根据 IMS 用户组将受限的 Assets 访问权限激活到带 Open API 的 Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) | + [(Dynamic Media) 使用 API 从动态媒体导出资产和元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26902) | + [（带 OpenAPI 的 Dynamic Media）根据 IMS 用户组将受限的 Assets 访问权限激活到带 Open API 的 Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) |
+| + [当 ZIP 压缩格式的 Tiff 文件上传到 AEM Assets 时，不生成演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) | + [AEM as a Cloud Service 中上传大 MP4 文件时资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26610) | + [当 ZIP 压缩格式的 Tiff 文件上传到 AEM Assets 时，不生成演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) |
+| + [超过 100,000 个令牌后从大 PDF 中提取文本时 AEM 将其截断](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) | + [(Dynamic Media) Dynamic Media 视频播放器在较低环境中无法正常工作](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26871) | + [超过 100,000 个令牌后从大 PDF 中提取文本时 AEM 将其截断](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) |
+| + [(Dynamic Media) 更改 DM 资产的动态媒体 URL](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628) | + [（带 OpenAPI 的 Dynamic Media）根据 IMS 用户组将受限的 Assets 访问权限激活到带 Open API 的 Dynamic Media](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26103) | + [(Dynamic Media) 更改 DM 资产的动态媒体 URL](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628) |
+| + [解决 AEMaaCS 中非管理员用户无法查看元数据架构的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) | + [当 ZIP 压缩格式的 Tiff 文件上传到 AEM Assets 时，不生成演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-23916) | + [解决 AEMaaCS 中非管理员用户无法查看元数据架构的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) |
+| + [(Dynamic Media) Dynamic Media 中 TIFF 图像演绎版背景色变更问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) | + [超过 100,000 个令牌后从大 PDF 中提取文本时 AEM 将其截断](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26785) | + [(Dynamic Media) Dynamic Media 中 TIFF 图像演绎版背景色变更问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) |
+| + [AEMaaCS 资产旋转问题使后续操作不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) | + [(Dynamic Media) 更改 DM 资产的动态媒体 URL](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-17628) | + [AEMaaCS 资产旋转问题使后续操作不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) |
+| + [(Brand Portal) 使用 OAuth 服务器到服务器凭据激活 Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-22074) | + [解决 AEMaaCS 中非管理员用户无法查看元数据架构的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26655) | + [(Brand Portal) 使用 OAuth 服务器到服务器凭据激活 Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-22074) |
+| + [(Dynamic Media) 解决 Adobe Experience Manager 6.5 Dynamic Media 中点击智能裁剪后图像无法显示的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) | + [(Dynamic Media) Dynamic Media 中 TIFF 图像演绎版背景色变更问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26637) | + [(Dynamic Media) 解决 Adobe Experience Manager 6.5 Dynamic Media 中点击智能裁剪后图像无法显示的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) |
+| + [增加 Photoshop Firefly API 集成的单部分资产上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) | + [AEMaaCS 资产旋转问题使后续操作不可见](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26528) | + [增加 Photoshop Firefly API 集成的单部分资产上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) |
+| + [(Dynamic Media) 解决 AEM 环境中 PDF 文件的动态媒体资产名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) | + [(Dynamic Media) 解决 Adobe Experience Manager 6.5 Dynamic Media 中点击智能裁剪后图像无法显示的问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26367) | + [(Dynamic Media) 解决 AEM 环境中 PDF 文件的动态媒体资产名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) |
+| + [某些图像在 Adobe Experience Manager (AEM) as a Cloud Service - Asset 中不显示缩略图演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233) | + [增加 Photoshop Firefly API 集成的单部分资产上传限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26450) | + [某些图像在 Adobe Experience Manager (AEM) as a Cloud Service - Asset 中不显示缩略图演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233) |
+| + [(Dynamic Media) 动态媒体常规设置页面不打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) | + [(Dynamic Media) 解决 AEM 环境中 PDF 文件的动态媒体资产名称差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26461) | + [(Dynamic Media) 动态媒体常规设置页面不打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) |
+| + [(Dynamic Media) 通过 AEM 中的 Dynamic Media 解决视频文件中的音频问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197) | + [某些图像在 Adobe Experience Manager (AEM) as a Cloud Service - Asset 中不显示缩略图演绎版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26233) | + [(Dynamic Media) 通过 AEM 中的 Dynamic Media 解决视频文件中的音频问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197) |
+| + [在 AEM as a Cloud Service 中自动标记新上传的资产](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) | + [(Dynamic Media) 动态媒体常规设置页面不打开](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25294) | + [在 AEM as a Cloud Service 中自动标记新上传的资产](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) |
+| + [在 AEM 中从 JWT 迁移到 OAuth 后，智能标记功能不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) | + [(Dynamic Media) 通过 AEM 中的 Dynamic Media 解决视频文件中的音频问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26197) | + [在 AEM 中从 JWT 迁移到 OAuth 后，智能标记功能不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) |
+| + [解决 AEM Managed Services 中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) | + [在 AEM as a Cloud Service 中自动标记新上传的资产](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25925) | + [解决 AEM Managed Services 中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) |
+| + [(Brand Portal) 共享链接下载问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25771) | + [在 AEM 中从 JWT 迁移到 OAuth 后，智能标记功能不起作用](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25889) | + [(Brand Portal) 共享链接下载问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25771) |
+| + [(Dynamic Media) AEM Dynamic Media 中的资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) | + [解决 AEM Managed Services 中的共享链接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25903) | + [(Dynamic Media) AEM Dynamic Media 中的资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) |
+| + [(Dynamic Media) Adobe Experience Manager (AEM) Dynamic Media 中的资产同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) | + [(Dynamic Media) AEM Dynamic Media 中的资产处理失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25607) | + [(Dynamic Media) Adobe Experience Manager (AEM) Dynamic Media 中的资产同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) |
+| + [更新 AEM as a Cloud Service 中视频资产的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) | + [(Dynamic Media) Adobe Experience Manager (AEM) Dynamic Media 中的资产同步失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25885) | + [更新 AEM as a Cloud Service 中视频资产的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) |
+| + [Adobe Experience Manager (AEM) Assets 中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) | + [更新 AEM as a Cloud Service 中视频资产的自定义缩略图](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25829) | + [Adobe Experience Manager (AEM) Assets 中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) |
+| + [将资产文件夹拖放到 AEM Assets Web UI 时失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) | + [Adobe Experience Manager (AEM) Assets 中的图像元数据差异](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25828) | + [将资产文件夹拖放到 AEM Assets Web UI 时失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) |
+| + [(Brand Portal) Brand Portal 编辑器和查看器无法看到任何图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-20177) | + [将资产文件夹拖放到 AEM Assets Web UI 时失败](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-21865) | + [(Brand Portal) Brand Portal 编辑器和查看器无法看到任何图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-20177) |
+| + [(Dynamic Media) 解决 AEM as a Cloud Service 中的资产处理问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525) | + [(Dynamic Media) 解决 AEM as a Cloud Service 中的资产处理问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525) | + [(Dynamic Media) 解决 AEM as a Cloud Service 中的资产处理问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25525) |
+| + [Adobe Experience Manager as a Cloud Service 中大 PDF 的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) | + [Adobe Experience Manager as a Cloud Service 中大 PDF 的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) | + [Adobe Experience Manager as a Cloud Service 中大 PDF 的文本提取限制](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25518) |
+| + [(Asset Link) 解决 InDesign 中的 Adobe Experience Manager (AEM) 资产链接连接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562) | + [(Asset Link) 解决 InDesign 中的 Adobe Experience Manager (AEM) 资产链接连接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562) | + [(Asset Link) 解决 InDesign 中的 Adobe Experience Manager (AEM) 资产链接连接问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25562) |
+| + [(Asset Link) Adobe Asset Link 插件网络错误：服务器不可到达](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) | + [(Asset Link) Adobe Asset Link 插件网络错误：服务器不可到达](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) | + [(Asset Link) Adobe Asset Link 插件网络错误：服务器不可到达](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25506) |
+| + [(Dynamic Media) 动态媒体同步用户推荐](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) | + [(Dynamic Media) 动态媒体同步用户推荐](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) | + [(Dynamic Media) 动态媒体同步用户推荐](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-25471) |
