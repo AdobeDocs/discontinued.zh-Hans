@@ -1,6 +1,6 @@
 ---
 source-git-commit: 587895ca37039d8bd29eb0cf8af2867003001131
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -16,13 +16,13 @@ ht-degree: 100%
 
 ## 关于向 Adobe 内容投稿
 
-请参阅 [Adobe 文档投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+请参阅 [Adobe 文档投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 您如何投稿取决于您的身份以及您要投稿的更改类型：
 
 ### 小幅度更改
 
-如果您出于善意想要投稿关于小幅度更改的内容，请访问文档并在文章中单击转向文章 GitHub 源的&#x200B;**编辑**&#x200B;链接。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅[《Adobe 文档投稿人指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+如果您出于善意想要投稿关于小幅度更改的内容，请访问文档并在文章中单击转向文章 GitHub 源的&#x200B;**编辑**&#x200B;链接。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅[《Adobe 文档投稿人指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -42,7 +42,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区参与者可以使用 GitHub UI 进行基本编辑或创建存储库分支，以做出主要更改。
 
-有关详细信息，请参阅 [Adobe 文档投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+有关详细信息，请参阅 [Adobe 文档投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 ## 如何使用标记来格式化主题
 
