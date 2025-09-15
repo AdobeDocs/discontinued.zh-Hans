@@ -1,21 +1,21 @@
 ---
-title: 适用于Adobe Commerce的Store Fulfillment
-description: 了解Adobe Commerce扩展的Store Fulfillment何时终止使用。
+title: Adobe Commerce 商店交付
+description: 了解 Adobe Commerce 的商店功能扩展的使用寿命何时终止。
 source-git-commit: c772662c6bd4e8a7a28282120114dfde62ba7bc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
 
-# 适用于Adobe Commerce的Store Fulfillment
+# Adobe Commerce 商店交付
 
-Adobe已停止提供Adobe Commerce的Store Fulfillment解决方案：
+Adobe 已停止提供 Adobe Commerce 商店交付解决方案：
 
-## 商店履单扩展
+## 商店交付扩展
 
-自2024年2月起，Adobe已终止店铺配送延期以及与沃尔玛市场配套的整合。 Store Fulfillment扩展不再通过Adobe Commerce Marketplace提供。
+自 2024 年 2 月起，Adobe 已停止商店交付扩展及其与沃尔玛市场的整合。商店交付扩展不再通过 Adobe Commerce Marketplace 提供。
 
 对于替代解决方案，Adobe 建议您了解合作伙伴解决方案和在 [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/) 上提供的第三方扩展，以找到最适合您需求的解决方案。
 
