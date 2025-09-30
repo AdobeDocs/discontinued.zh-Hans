@@ -4,10 +4,10 @@ description: 这是隐藏测试
 hide: true
 hidefromtoc: true
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: 5c9e5ae15154f9ed1bdcd398c3e6866eee13c029
+source-git-commit: 6d5ca49ae613ba51468a4e1a7766dc92992ead08
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 54%
+source-wordcount: '35'
+ht-degree: 57%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 54%
 
 ## 悬停文本测试
 
-否，无悬停文本
+无悬停文本
 
 ```
 ![alt text](assets/maui-flip.jpg)
@@ -27,7 +27,7 @@ ht-degree: 54%
 ![替换文本](assets/maui-flip.jpg)
 
 
-是，是悬停文本
+是悬停文本
 
 ```
 ![alt text](assets/maui-flip.jpg "Hover text")
