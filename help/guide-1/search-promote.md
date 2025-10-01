@@ -33,4 +33,4 @@ ht-degree: 100%
 
 ### **_我可以联系谁以了解更多信息？_**
 
-如有任何问题，请联系您的客户成功经理 (CSM)，或联系 Adobe 团队：[ searchquestions@adobe.com ](mailto:searchquestions@adobe.com)。
+如有任何问题，请联系您的客户成功经理 (CSM)，或联系 Adobe 团队：[searchquestions@adobe.com](mailto:searchquestions@adobe.com)。
