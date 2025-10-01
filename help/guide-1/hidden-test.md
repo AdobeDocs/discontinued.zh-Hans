@@ -4,10 +4,10 @@ description: 这是隐藏测试
 hide: true
 hidefromtoc: true
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: fdcc74a0636e2de1f3e2fd751a09f8d19f9994b9
+source-git-commit: f44cf6b15dd54f8a9671957d4fc11594bdd75987
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 30%
+source-wordcount: '58'
+ht-degree: 25%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 30%
 
 这是一个隐藏的测试。  它不应出现在搜索中。
 
-鲍勃来这里做短跑演示。
+Bob来这里做短跑演示，Lakshay进入生产阶段后……
 
 阿杰来过这里。
 
