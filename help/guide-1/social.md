@@ -3,7 +3,7 @@ title: '[!DNL Adobe Social] 产品文档'
 description: '[!DNL Adobe Social] 用户指南资源'
 exl-id: 48527ae3-bc6a-4f30-9309-701bb2be0650
 source-git-commit: 71f90bc9bf13269539bcfadcb40c60dce10b0bab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 100%
 
