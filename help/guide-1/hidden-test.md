@@ -7,10 +7,10 @@ landing-page-breadcrumb-title: Test AEM 6.5
 landing-page-name: experience-manager-65
 feature: Annotations
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: 8b8ef3148821e9e31eed78376597e30387663134
+source-git-commit: cbb5014b55d1e2af43f7c729b4714499c953b154
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 18%
+source-wordcount: '71'
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 
 Bob来这里做短跑演示，Lakshay进入生产阶段后……
 
-2025年10月22日
+10月22日，鲍勃和萨里卡来了
 
 ## 悬停文本测试 {#this-is-a-heading-anchor}
 
