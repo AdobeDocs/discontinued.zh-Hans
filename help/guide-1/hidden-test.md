@@ -5,11 +5,12 @@ hide: true
 hidefromtoc: true
 landing-page-breadcrumb-title: Test AEM 6.5
 landing-page-name: experience-manager-65
+feature: Annotations
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: c901ef4b1607a3d03a995b8e6ada5860ae587706
+source-git-commit: 89046c442b4cc4af0b8d205e2aea0554db75720d
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 26%
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 26%
 
 Bob来这里做短跑演示，Lakshay进入生产阶段后……
 
-十月16日
+十月22日
 
 ## 悬停文本测试 {#this-is-a-heading-anchor}
 
@@ -51,6 +52,8 @@ https://experienceleague-stage.adobe.com/en/slides/analyze-project
 
 已渲染：
 
+<!--
 >[!SLIDE](analyze-project)
+-->
 
-Bob 到此一游
+Bob：测试主题位置内容后，请删除幻灯片评论。
