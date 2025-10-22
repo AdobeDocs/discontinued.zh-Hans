@@ -3,13 +3,13 @@ title: 错误的文件名
 description: 这是一个隐藏的测试3
 hide: true
 hidefromtoc: true
-source-git-commit: a154d279ec9bce035e1a555cd1aa17ab2531d5b4
+source-git-commit: 0f37cc8cfe6eaacc33ef3ba1af1ed4fc3ef3a607
 workflow-type: tm+mt
-source-wordcount: '14'
-ht-degree: 21%
+source-wordcount: '19'
+ht-degree: 0%
 
 ---
 
 # 隐藏的错误文件名
 
-隐藏测试 3
+Bob和Sarika的秘密测试来了！
