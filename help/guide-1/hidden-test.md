@@ -7,10 +7,10 @@ landing-page-breadcrumb-title: Test AEM 6.5
 landing-page-name: experience-manager-65
 feature: Annotations
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: b8cacb7fbfa25083c87079bce67ee9c80c81ae84
+source-git-commit: c5ce9a3708541560e86ccad5b1407788b570fd96
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '103'
+ht-degree: 13%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 14%
 这是一个隐藏的测试。 我正在添加此`[`以确保它在v2渲染中正常工作。
 
 Bob来这里做短跑演示，在Lakshay进入生产阶段后又来了。
+
+马特在10月28日。
 
 10月22日， Bob和Sarika一次又一次地来到这里！
 
