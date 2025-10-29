@@ -7,9 +7,9 @@ landing-page-breadcrumb-title: Test AEM 6.5
 landing-page-name: experience-manager-65
 feature: Annotations
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: c5ce9a3708541560e86ccad5b1407788b570fd96
+source-git-commit: c8b449fadd96b59ed78668fd557bc4f1853820d3
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '102'
 ht-degree: 13%
 
 ---
@@ -22,7 +22,7 @@ Bob来这里做短跑演示，在Lakshay进入生产阶段后又来了。
 
 马特在10月28日。
 
-10月22日， Bob和Sarika一次又一次地来到这里！
+2025年10月29日 — Bob和Sarika一次又一次地来到这里！
 
 ## 相对链接
 
