@@ -7,10 +7,10 @@ landing-page-breadcrumb-title: Test AEM 6.5
 landing-page-name: experience-manager-65
 feature: Annotations
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: 19ea79fc93e7d47d09dd8d96189578ef56c82314
+source-git-commit: feaf14e57e2e0aefbe07fd254b1f2a7ebe90ba89
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 14%
+source-wordcount: '175'
+ht-degree: 8%
 
 ---
 
@@ -23,6 +23,13 @@ Bob来这里做短跑演示，在Lakshay进入生产阶段后又来了。
 马特在10月28日。
 
 Slack通知？ 10月30日。
+
+## 错误表
+
+| 任务 | 描述 |
+| -----------| ---------- |  
+| [为Analytics实施Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html) | Adobe还建议设置其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。 这些ID与每个访客相关联，并可以启用Experience Cloud中现有和未来的功能。 |
+| 将现有的`s_code`更新到H.27.3或更高版本，或将现有的`AppMeasurement.js`更新到1.4或更高版本。 | 这些文件可在Analytics管理工具的[代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)中下载。 (如果您需要有关[的更多信息，请参阅](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html#js)JavaScript实施`AppMeasurement.js`指南。) |
 
 ## 相对链接
 
