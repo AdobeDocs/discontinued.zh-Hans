@@ -1,11 +1,11 @@
 ---
-title: “[!DNL Data Workbench] 终止使用”
+title: '[!DNL Data Workbench]生命周期结束'
 description: 本文档涵盖  [!DNL Data Workbench] 的终止使用的常见问题解答。
 exl-id: 88a2c977-2c21-4bf8-9d58-24cb1ea2a075
-source-git-commit: d8a954bf197c87d3ef705bdf8bc67b9810c2502b
+source-git-commit: bc05ff57d2dbb6b225bc327ed9cec16d9545e1b4
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -42,3 +42,4 @@ Adobe 目前提供以下 Adobe Experience Platform 解决方案满足与 Data Wo
 ## 我可以从何处获得更多信息？
 
 有关本[终止使用公告](https://express.adobe.com/page/GSu6oKOD88GAj/)的任何详细信息或问题，请联系您组织的 Adobe 客户经理。
+

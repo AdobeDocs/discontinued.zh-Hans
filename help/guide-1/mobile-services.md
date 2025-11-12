@@ -2,7 +2,7 @@
 title: Adobe Mobile Services 终止使用常见问题
 description: 获取有关 Adobe Mobile Services 终止使用公告的常见问题的解答。
 exl-id: c5f44341-7b87-4530-b86e-17e2911a7959
-source-git-commit: 343e0a727c570c9eec503d7903d0477134fc6189
+source-git-commit: bc05ff57d2dbb6b225bc327ed9cec16d9545e1b4
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
@@ -44,3 +44,4 @@ Adobe 根据您组织的用例提供了三个过渡路径。
 ## 如果我有疑问，可以在何处寻求帮助？
 
 请参阅 [Adobe Mobile Services 终止使用 Spark 页面](https://spark.adobe.com/page/C6D30y09zaRpD/)以了解更多信息。如有任何其他问题，请联系您的 Adobe 代表。
+

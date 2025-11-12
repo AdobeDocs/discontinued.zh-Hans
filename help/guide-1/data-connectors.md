@@ -2,7 +2,7 @@
 description: 了解 Adobe Analytics Data Connectors 集成的停运情况。
 title: Analytics Data Connectors 集成的生命周期终止
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 4bcdf13748a4723ec088d8fa6ca57c664b3e2a32
+source-git-commit: bc05ff57d2dbb6b225bc327ed9cec16d9545e1b4
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
@@ -28,3 +28,4 @@ Adobe Analytics 旨在提供同类最佳的网络和营销分析，以满足客�
 如果您是 Data Connectors 客户，并且希望申请迁移您使用的集成，请将所有请求直接发送到集成合作伙伴。合作伙伴必须充分迁移至新的 API。Adobe 客户关怀部门不能强制合作伙伴迁移至新的 API。每个提供集成的公司都可以选择将其集成迁移至 Adobe Exchange 或中断其集成。
 
 如果存在疑问或需要获取相关支持，请联系 Adobe 客户关怀团队。
+
