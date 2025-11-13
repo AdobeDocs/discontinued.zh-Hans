@@ -24,15 +24,15 @@ ht-degree: 14%
 
 ### 纯视频无成绩单 — 应显示成绩单，因为metadata.md会向下滴流
 
->[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
 
 ### 成绩单设置为true
 
->[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
 
 ### 成绩单设置为false — 视频成绩单不应显示
 
->[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=false}
+>[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=false}
 
 ## 相对链接
 
