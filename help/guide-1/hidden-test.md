@@ -20,15 +20,15 @@ ht-degree: 7%
 
 ## 在新选项卡中打开
 
-`[See What's new](auditor.md) {target="_blank"}`
+`[See What's new](auditor.md){target="_blank"} `
 
 [在同一选项卡中打开](auditor.md)
 
-[带引号空格的新选项卡](auditor.md) {target="_blank"}
+[带引号空格的新选项卡](auditor.md){target="_blank"} 
 
 [带引号的新制表符](auditor.md){target="_blank"}
 
-[新制表符，空格不含引号](auditor.md) {target=_blank}
+[新制表符，空格不含引号](auditor.md){target=_blank} 
 
 [不带引号的新制表符](auditor.md){target=_blank}
 
