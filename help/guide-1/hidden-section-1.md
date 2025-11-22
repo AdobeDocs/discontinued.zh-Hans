@@ -4,14 +4,44 @@ description: 这是一个隐藏的测试1
 auto-video-transcripts: false
 hide: true
 hidefromtoc: true
-source-git-commit: 78fd2d5e219c4acf0199d5bb527a3b5c3561def2
+source-git-commit: 8c80f9c127f13aa2b5dbf860bd099b46e3321cbf
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 8%
+source-wordcount: '62'
+ht-degree: 4%
 
 ---
 
 # 隐藏部分测试1
+
+
+2025年11月18
+
+<!-- ## Comment with basic text
+
+This is a new line.
+
+Second new line. -->
+
+
+注释如下。 如果这是您在本文中看到的最后一件事，则是由注释语法造成的。
+
+1. 单击&#x200B;**[!UICONTROL 创建]**。
+
+<!-- ## Create an exclusion using Advanced Search
+
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
+
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
+
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion].
+
+>[!IMPORTANT]
+>
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. 
+-->
+
+此行在注释之后。
+
 
 隐藏测试 1
 
@@ -21,8 +51,8 @@ ht-degree: 8%
 
 ## 无成绩单
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
 
 ## 成绩单为true
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
