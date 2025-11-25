@@ -4,7 +4,7 @@ description: 这是一个隐藏的测试1
 auto-video-transcripts: false
 hide: true
 hidefromtoc: true
-source-git-commit: 7f152c467b1805a0f5b47f4dd29b00ee3130d8ef
+source-git-commit: bc2e4de9631fd091c6438c59ab51b1dbad607531
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 4%
@@ -13,8 +13,7 @@ ht-degree: 4%
 
 # 隐藏部分测试1
 
-
-2025年11月18
+2025年11月24日
 
 1. 转到此处
 
@@ -52,8 +51,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 无成绩单
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
 
 ## 成绩单为true
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}

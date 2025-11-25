@@ -5,10 +5,10 @@ hide: true
 hidefromtoc: true
 landing-page-breadcrumb-title: Test Analytics
 landing-page-name: analytics
-source-git-commit: 3b2e2491a789e1d0d4509173999fef52499bf9a7
+source-git-commit: aed53029027389bf0494166cd7c32d5145cd7251
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 14%
+source-wordcount: '23'
+ht-degree: 13%
 
 ---
 
@@ -16,10 +16,12 @@ ht-degree: 14%
 
 隐藏测试 2
 
+十一月24日
+
 ## 无成绩单
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=false}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=false}
 
 ## 成绩单为true
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
