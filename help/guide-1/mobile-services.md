@@ -2,10 +2,10 @@
 title: Adobe Mobile Services 终止使用常见问题
 description: 获取有关 Adobe Mobile Services 终止使用公告的常见问题的解答。
 exl-id: c5f44341-7b87-4530-b86e-17e2911a7959
-source-git-commit: bc05ff57d2dbb6b225bc327ed9cec16d9545e1b4
+source-git-commit: 37c91c7a347feb988d535eec0dfc2ec6ba94ddd3
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Mobile Services 已于 2022 年 12 月 31 日终止使用。在此日期之后�
 
 ## 包含哪些内容，不包含哪些内容？
 
-本次终止使用仅包括 Adobe Mobile Services，即 [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com) 上的独立平台。依赖此接口的 Mobile 版本 4 SDK 已于 2021 年 8 月 31 日失效。
+此生命周期结束仅包括Adobe Mobile Services，这是`mobilemarketing.adobe.com`处的独立平台。 依赖此接口的 Mobile 版本 4 SDK 已于 2021 年 8 月 31 日失效。
 
 本次终止使用不包括适用于移动应用程序的 Adobe Analytics，它是 Adobe Experience Platform Mobile SDK 的一部分。Adobe 将继续为这些功能（包括应用程序内行为、生命周期分析、消息交互跟踪和受众配置文件）提供支持。
 
