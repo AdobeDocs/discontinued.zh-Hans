@@ -7,7 +7,7 @@ landing-page-breadcrumb-title: Test AEM 6.5
 landing-page-name: experience-manager-65
 feature: Annotations
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: d246aa050c2e8304709fadaddf93a6b70a661b82
+source-git-commit: f6e3d17e221850a71617abfb9f5e75c0e26b362f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 9%
@@ -16,29 +16,29 @@ ht-degree: 9%
 
 # 隐藏测试
 
-1月8日 — 鲍勃
+1月26日 — 鲍勃
 
 这是一个隐藏的测试。 我正在添加此`[`以确保它在v2渲染中正常工作！
 
 ## 在新选项卡中打开 {#section_92882928}
 
-`[See What's new](auditor.md){target="_blank"} `
+`[See What's new](auditor.md) {target="_blank"}`
 
 [在同一选项卡中打开](auditor.md)
 
-[带引号空格的新选项卡](auditor.md){target="_blank"} 
+[带引号空格的新选项卡](auditor.md) {target="_blank"}
 
-[带有锚点的新选项卡](auditor.md){target=_blank}
+[带有锚点的新选项卡](auditor.md){target=&quot;_blank}
 
 [带引号的新制表符](auditor.md){target="_blank"}
 
-[新制表符，空格不含引号](auditor.md){target=_blank} 
+[新制表符，空格不含引号](auditor.md) {target=_blank}
 
 [不带引号的新制表符](auditor.md){target=_blank}
 
 [带有深层链接的新选项卡](commerce-channels.md#channel-manager-extension){target="_blank"}
 
-[将新选项卡与深层链接定位在一起](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/home#key-analytics-resources){target="_blank"}
+[将新选项卡与深层链接定位在一起](https://experienceleague.adobe.com/en/docs/analytics/analyze/home#key-analytics-resources){target="_blank"}
 
 [带有外部链接的新选项卡](https://www.adobe.com){target="_blank"}
 
@@ -93,15 +93,15 @@ After creating a search using "id > contains," for example, you can then click [
 
 ### 纯视频无成绩单 — 应显示成绩单，因为metadata.md会向下滴流
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
 
 ### 成绩单设置为true
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
 
 ### 成绩单设置为false — 视频成绩单不应显示
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=false}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=false}
 
 ## 相对链接
 
