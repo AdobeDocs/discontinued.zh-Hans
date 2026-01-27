@@ -7,7 +7,7 @@ landing-page-breadcrumb-title: Test AEM 6.5
 landing-page-name: experience-manager-65
 feature: Annotations
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: d246aa050c2e8304709fadaddf93a6b70a661b82
+source-git-commit: f6e3d17e221850a71617abfb9f5e75c0e26b362f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # 隐藏测试
 
-1月8日 — 鲍勃
+1月26日 — 鲍勃
 
 这是一个隐藏的测试。 我正在添加此`[`以确保它在v2渲染中正常工作！
 
