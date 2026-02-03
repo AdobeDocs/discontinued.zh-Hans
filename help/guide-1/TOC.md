@@ -2,10 +2,10 @@
 user-guide-title: Adobe Experience Cloud的已停产产品
 breadcrumb-title: 停产产品
 user-guide-description: ' [!DNL Adobe Experience Cloud]的已停产产品列表'
-source-git-commit: da88987d86343e1285387bce1d323ea0a49bd66f
+source-git-commit: 63aefd6f99f007e4cfa78361402f24f0dabae35e
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 67%
+source-wordcount: '52'
+ht-degree: 63%
 
 ---
 
@@ -26,4 +26,5 @@ ht-degree: 67%
 + [Search&amp;Promote](/help/guide-1/search-promote.md)
 + [社交](/help/guide-1/social.md)
 + [Adobe Commerce 商店交付](/help/guide-1/commerce-store-fulfillment.md)
-+ [隐藏测试 — 1月](/help/guide-1/hidden-test.md)
++ [隐藏测试 — 2月](/help/guide-1/hidden-test.md)
++ [隐藏测试 — 新建](hidden-section-1.md)
