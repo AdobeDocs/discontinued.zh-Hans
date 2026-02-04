@@ -8,17 +8,16 @@ landing-page-name: experience-manager-65
 feature: Annotations
 hold: true
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: f38dd5701562d9e51256c50f766c7b03f253f279
+source-git-commit: d0d9f9e59e9186c39307a3e2a6695de89aadab05
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 8%
+source-wordcount: '216'
+ht-degree: 9%
 
 ---
 
 # 隐藏测试
 
-2026年2月2日 — `hold: true`启用。 哦，就是这样！
-2026年2月3日 — 马特
+2026年2月4日 — `hold: true`启用。
 
 这是一个隐藏的测试。 我正在添加此`[`以确保它在v2渲染中正常工作！
 
