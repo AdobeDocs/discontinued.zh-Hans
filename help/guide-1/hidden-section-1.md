@@ -5,7 +5,7 @@ auto-video-transcripts: false
 hide: true
 hidefromtoc: true
 hold: true
-source-git-commit: d0d9f9e59e9186c39307a3e2a6695de89aadab05
+source-git-commit: d6a0342750804a56c686c966801c411090b9672a
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # 隐藏部分测试1
 
-2026年2月4日
+2026年2月26日
 
 1. 转到此处
 
@@ -52,8 +52,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 无成绩单
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
 
 ## 成绩单为true
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
