@@ -8,16 +8,17 @@ landing-page-name: experience-manager-65
 feature: Annotations
 hold: true
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: f3cf599787da4d3d1b9b77bd6207fea46c732dd7
+source-git-commit: dd84fbbd17de8795e1ef6f8c9bc3bd35d9b0847e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '238'
 ht-degree: 8%
 
 ---
 
 # 隐藏测试
 
-2026年2月4日 — `hold: true`启用。
+2026年3月4日 — `hold: true`启用。
+
 测试新密钥
 
 2月11日：测试暂挂。
@@ -34,15 +35,15 @@ ht-degree: 8%
 
 [带有锚点的新选项卡](auditor.md){target=_blank}
 
-[带引号的新制表符](auditor.md){target="_blank"}
+[带引号的新制表符（无空格）](auditor.md){target="_blank"}
 
 [新制表符，空格不含引号](auditor.md){target=_blank} 
 
-[不带引号的新制表符](auditor.md){target=_blank}
+[不带引号空格的新制表符](auditor.md){target=_blank}
 
 [带有深层链接的新选项卡](commerce-channels.md#channel-manager-extension){target="_blank"}
 
-[将新选项卡与深层链接定位在一起](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/home#key-analytics-resources){target="_blank"}
+[锚点带有深层链接的新选项卡](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/home#key-analytics-resources){target="_blank"}
 
 [带有外部链接的新选项卡](https://www.adobe.com){target="_blank"}
 
