@@ -26,5 +26,5 @@ ht-degree: 64%
 + [Search&amp;Promote](/help/guide-1/search-promote.md)
 + [社交](/help/guide-1/social.md)
 + [Adobe Commerce 商店交付](/help/guide-1/commerce-store-fulfillment.md)
-+ {hide-from-toc}[隐藏测试 — 2月](/help/guide-1/hidden-test.md)
-+ {hide-from-toc}[隐藏测试 — 新](hidden-section-1.md)
++ [hide-from-toc隐藏测试 — 2月](/help/guide-1/hidden-test.md)
++ [hide-from-toc隐藏测试 — 新](hidden-section-1.md)
