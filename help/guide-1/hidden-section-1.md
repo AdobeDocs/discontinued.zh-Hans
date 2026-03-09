@@ -3,9 +3,7 @@ title: 隐藏的第1部分测试
 description: 这是一个隐藏的测试1
 auto-video-transcripts: false
 hide: true
-hidefromtoc: true
-hold: true
-source-git-commit: 89758ac0005261dbe337b88dbce4eae9edaedd1f
+source-git-commit: 5ed891ab8d3b4100cb7bf9d887e2b545ec4626f4
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
@@ -52,8 +50,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 无成绩单
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
 
 ## 成绩单为true
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
