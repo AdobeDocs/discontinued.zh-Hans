@@ -3,16 +3,16 @@ title: 隐藏的第1部分测试
 description: 这是一个隐藏的测试1
 auto-video-transcripts: false
 hide: true
-source-git-commit: 5ed891ab8d3b4100cb7bf9d887e2b545ec4626f4
+source-git-commit: 8d2e39e354962d6a04ba48d33c834e885641b2e1
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '70'
 ht-degree: 7%
 
 ---
 
 # 隐藏部分测试1
 
-2026年3月9日
+2026年3月10日 — 这篇文章没有`hold: true`
 
 1. 转到此处
 
@@ -50,8 +50,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 无成绩单
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
 
 ## 成绩单为true
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
