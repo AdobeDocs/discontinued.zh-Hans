@@ -8,7 +8,7 @@ landing-page-name: experience-manager-65
 feature: Annotations
 hold: true
 exl-id: e6e5ba1c-98a5-4d7d-9913-426df31bc7a3
-source-git-commit: 27c6d4270e5a27cc4a95e28625c3f20997f87646
+source-git-commit: d53fd34daae5dd4141563732cf0458f0e2f2af91
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 8%
@@ -25,23 +25,23 @@ ht-degree: 8%
 
 ## 在新选项卡中打开 {#section_92882928}
 
-`[See What's new](auditor.md){target="_blank"} `
+`[See What's new](auditor.md) {target="_blank"}`
 
 [在同一选项卡中打开](auditor.md)
 
-[带引号空格的新选项卡](auditor.md){target="_blank"} 
+[带引号空格的新选项卡](auditor.md) {target="_blank"}
 
-[带有锚点的新选项卡](auditor.md){target=_blank}
+[带有锚点的新选项卡](auditor.md){target=&quot;_blank}
 
 [带引号的新制表符（无空格）](auditor.md){target="_blank"}
 
-[新制表符，空格不含引号](auditor.md){target=_blank} 
+[新制表符，空格不含引号](auditor.md) {target=_blank}
 
 [不带引号空格的新制表符](auditor.md){target=_blank}
 
 [带有深层链接的新选项卡](commerce-channels.md#channel-manager-extension){target="_blank"}
 
-[锚点带有深层链接的新选项卡](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/home#key-analytics-resources){target="_blank"}
+[锚点带有深层链接的新选项卡](https://experienceleague.adobe.com/en/docs/analytics/analyze/home#key-analytics-resources){target="_blank"}
 
 [带有外部链接的新选项卡](https://www.adobe.com){target="_blank"}
 
@@ -67,18 +67,21 @@ ht-degree: 8%
 
 2025年11月18
 
-<!-- ## Comment with basic text
+<!-- 
+## Comment with basic text
 
 This is a new line.
 
-Second new line. -->
+Second new line. 
+-->
 
 
 注释如下。 如果这是您在本文中看到的最后一件事，则是由注释语法造成的。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-<!-- ## Create an exclusion using Advanced Search
+<!-- 
+## Create an exclusion using Advanced Search
 
 You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
@@ -88,7 +91,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. -->
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. 
+-->
 
 此行在注释之后。
 
@@ -96,15 +100,15 @@ After creating a search using "id > contains," for example, you can then click [
 
 ### 纯视频无成绩单 — 应显示成绩单，因为metadata.md会向下滴流
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
 
 ### 成绩单设置为true
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
 
 ### 成绩单设置为false — 视频成绩单不应显示
 
->[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=false}
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=false}
 
 ## 相对链接
 
