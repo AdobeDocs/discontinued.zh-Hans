@@ -3,7 +3,7 @@ title: Adobe Commerce 的渠道
 description: 了解 Amazon Sales Channel 和 Adobe Commerce 的渠道经理扩展的使用寿命何时终止。
 hold: true
 exl-id: 40ff120b-4f37-4ef6-a3ad-e7ee67dd3e23
-source-git-commit: efa5370671e2f1973f5cacbe2a989cb953d54c83
+source-git-commit: 7b43cece7f0c1ab1f7b4dcc6fd445be6ba0c6e8a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
@@ -29,4 +29,3 @@ Adobe 已停止针对 Adobe Commerce 的以下销售渠道扩展：
 自2024年7月1日起，Adobe 已停用渠道经理扩展及其与沃尔玛商城的相关集成。 渠道经理扩展不再通过 Adobe Commerce Marketplace 提供。
 
 对于替代解决方案，Adobe 建议您了解合作伙伴解决方案和在 [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/) 上提供的第三方扩展，以找到最适合您需求的解决方案。
-
