@@ -67,8 +67,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 无成绩单
 
->[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true)
 
 ## 成绩单为true
 
->[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3409656?captions=chi_hans&hidetitle=true){transcript=true}
