@@ -3,10 +3,10 @@ keywords: Adobe experience cloud；Adobe Experience Cloud；device co-op；Devic
 title: '[!DNL Device Co-op] 生命周期结束常见问题解答'
 description: 了解 Device Co-op 的生命周期结束计划。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: bc05ff57d2dbb6b225bc327ed9cec16d9545e1b4
+source-git-commit: b090d9f4f4040143b0d2847464785c7ad35de545
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 100%
+source-wordcount: '1216'
+ht-degree: 88%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 ## 为什么 [!DNL Device Co-op] 被弃用？
 
-AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来几年成为过时的解决方案。 [!DNL Device Co-op] 主要由第三方 cookie 组成，而 [!DNL Google's] 宣布他们将在 2022 年之前在 [!DNL Google Chrome] 上阻止第三方 cookie 将降低 [!DNL Device Co-op] 的有效性。 [!DNL Chrome] 拥有约 65% 的浏览器市场份额，其他主要浏览器已经实施了对第三方 cookie 的阻止。 一旦 [!DNL Chrome] 阻止第三方 cookie，大部分第三方 cookie 将被阻止，[!DNL Device Co-op] 将被废弃。
+AdTech环境中即将进行的更改预计会导致[!DNL Device Co-op]在未来几年中成为过时的解决方案。[!DNL Device Co-op] 主要由第三方Cookie组成，并且宣布[!DNL Google's]将在2022年之前在[!DNL Google Chrome]上阻止第三方Cookie，这将降低[!DNL Device Co-op]的有效性。[!DNL Chrome] 拥有约65%的浏览器市场份额，并且其他主要浏览器已经实施了第三方Cookie拦截。 一旦 [!DNL Chrome] 阻止第三方 cookie，大部分第三方 cookie 将被阻止，[!DNL Device Co-op] 将被废弃。
 
 ## 为什么 Adobe 现在结束 [!DNL Device Co-op] 注册？
 
-注册即将结束，以防止由于第三方 cookie 即将发生的行业更改而导致无法满足客户期望的风险。 [!DNL Device Co-op] 需要几个月的时间来准备，另外几个月的时间来从服务中提取价值。此时任何进一步的注册都可能导致品牌无法体验到 [!DNL Device Co-op] 的全部价值。
+由于即将到来的第三方Cookie行业变化，注册旨在防止出现无法满足客户期望的风险。[!DNL Device Co-op] 准备工作需要几个月，从中获取价值需要几个月的时间。 此时任何进一步的注册都可能导致品牌无法体验到 [!DNL Device Co-op] 的全部价值。
 
 ## 2022 年 7 月，Google 宣布将 Chrome 上的第三方 cookie 弃用推迟到 2024 年。 这会影响到 [!DNL Device Co-op] EOL 计划？
 
@@ -61,7 +61,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ### [!DNL Audience Manager]
 
-[!DNL Audience Manager] 维护与第三方设备图形合作伙伴的集成，包括 [!DNL LiveRamp] 和 [!DNL Tapad]，尽管您必须直接与图形合作伙伴建立商业关系，才能利用 [!DNL Audience Manager]。所有客户都应更新任何合作个人资料合并规则以使用除 [!DNL Device Co-op.] 之外的任何选项。
+[!DNL Audience Manager] 维护与第三方设备图形合作伙伴的集成，包括 [!DNL LiveRamp] 和 [!DNL Tapad]，尽管您必须直接与图形合作伙伴建立商业关系，才能利用 [!DNL Audience Manager]。 所有客户都应更新任何合作个人资料合并规则以使用除 [!DNL Device Co-op.] 之外的任何选项。
 
 ### [!DNL Real-time Customer Data Platform]
 
@@ -73,7 +73,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ### [!DNL Target]
 
-目前没有可用于 [!DNL Target] 的替代方案，因为 [!DNL Target] 提供了一种称为 `mbox3rdPartyId` 的确定性跨设备标识拼接功能，其功能类似于 Adobe 的客户 ID。此功能允许[!DNL Target]客户在入站渠道中完成[!DNL Target]测试和个性化合并个人资料和活动参与。
+目前没有可用于 [!DNL Target] 的替代方案，因为 [!DNL Target] 提供了一种称为 `mbox3rdPartyId` 的确定性跨设备标识拼接功能，其功能类似于 Adobe 的客户 ID。 此功能允许[!DNL Target]客户在入站渠道中完成[!DNL Target]测试和个性化合并个人资料和活动参与。
 
 ### Adobe Advertising Cloud
 
@@ -88,7 +88,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ## 我可以保留我的数据吗[!DNL Device Co-op]？
 
-对于 [!DNL Audience Manager] 和 [!DNL Advertising Cloud] 用户，来自 [!DNL Device Co-op] 的数据将无法传输到第三方图表。 [!DNL Device Co-op] 数据只会为 [!DNL Analytics Ultimate] 用户使用 CDA 迁移，[!DNL Device Co-op] 切换到基于字段的拼接。 所有其他解决方案都不会迁移其数据。
+对于[!DNL Audience Manager]和[!DNL Advertising Cloud]用户，[!DNL Device Co-op]中的数据将无法传输到第三方图形。[!DNL Device Co-op] 将仅为使用CDA且将[!DNL Device Co-op]切换到基于字段的拼合的[!DNL Analytics Ultimate]用户迁移数据。 所有其他解决方案都不会迁移其数据。
 
 ## 是否必须采用其他功能？
 
@@ -104,4 +104,5 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ## 有关[!UICONTROL 人员]的量度呢？
 
-随着对 [!DNL Device Co-op] 的弃用，[!UICONTROL 人员]量度将会不再相关。2023 年 5 月 8 日，我们将移除[!UICONTROL 人员]量度。届时，我们会将其数据重定向到 Analytics 中的[!UICONTROL 独特访客]量度，以防止项目、区段和计算量度出现中断。
+随着对 [!DNL Device Co-op] 的弃用，[!UICONTROL 人员]量度将会不再相关。 2023 年 5 月 8 日，我们将移除[!UICONTROL 人员]量度。 届时，我们会将其数据重定向到 Analytics 中的[!UICONTROL 独特访客]量度，以防止项目、区段和计算量度出现中断。
+

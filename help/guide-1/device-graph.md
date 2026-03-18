@@ -2,7 +2,7 @@
 keywords: 设备图；生命周期结束
 title: 设备图
 description: 了解设备图的生命周期结束计划。
-source-git-commit: 6d27883347049957d35070dd5c5bf5b223144470
+source-git-commit: b090d9f4f4040143b0d2847464785c7ad35de545
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
@@ -27,10 +27,11 @@ Cross-Device Analytics确实使用专用图将数据拼合在一起。 专用图
 
 * 您的组织必须使用[Adobe Experience Platform Identity Service专用图](https://business.adobe.com/cn/products/experience-platform/identity-service.html)。 另请参阅Identity Service用户指南中的[主页](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)。
 * 您的实施必须使用最新版本的Experience Cloud ID服务(ECID)。 请参阅ID服务用户指南中的[主页](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 在Adobe Experience Platform中使用[标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)的大多数实施可能都已部署ID服务。
-* 当个人身份可以识别（例如，用户登录或打开电子邮件）时，您的实施必须调用`setCustomerIDs`函数(或等效的SDK)。 这项要求适用于所有平台，包括使用的移动应用程序。 请参阅ID服务用户指南中的[`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=zh-Hans)。
+* 当个人身份可以识别（例如，用户登录或打开电子邮件）时，您的实施必须调用`setCustomerIDs`函数（或等效的SDK）。 这项要求适用于所有平台，包括使用的移动应用程序。 请参阅ID服务用户指南中的[`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=zh-Hans)。
 
 ## 特定于设备图的限制
 
 * 不支持旧版Analytics ID。 仅拼合具有Experience Cloud ID的访客。
 * 如果您的组织使用专用图，则拼合新设备最多需要24小时。
 * 不支持第三方设备图。
+
