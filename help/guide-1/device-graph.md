@@ -2,7 +2,7 @@
 keywords: 设备图；生命周期结束
 title: 设备图
 description: 了解设备图的生命周期结束计划。
-source-git-commit: b090d9f4f4040143b0d2847464785c7ad35de545
+source-git-commit: bb33d25c2f7f7fa7a3d133c9f9b7c89387ff78e4
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
@@ -34,4 +34,3 @@ Cross-Device Analytics确实使用专用图将数据拼合在一起。 专用图
 * 不支持旧版Analytics ID。 仅拼合具有Experience Cloud ID的访客。
 * 如果您的组织使用专用图，则拼合新设备最多需要24小时。
 * 不支持第三方设备图。
-
