@@ -122,6 +122,6 @@ Adobe建议将所有新项目迁移到Edge Network实施。 如果需要中间�
 
 >[!MORELIKETHIS]
 >
->* [流媒体实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)
->* [Edge Network流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/implementation-edge.html)
->* [Media SDK 3.x — JavaScript设置](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/web-implementation.html)
+>* [流媒体实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hans)
+>* [Edge Network流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/implementation-edge.html?lang=zh-Hans)
+>* [Media SDK 3.x — JavaScript设置](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/web-implementation.html?lang=zh-Hans)

@@ -39,7 +39,7 @@ ht-degree: 80%
 * *[!DNL Adobe Acrobat DC]* 现在是 *[!DNL Adobe Acrobat]*。
 * *[!DNL Adobe Sign]* 现在是 *[!DNL Acrobat Sign]*。
 * *[!DNL Magento]* 现在是 *[!DNL Adobe Commerce]*。
-* *[!DNL Launch]*/*[!DNL Experience Platform Launch]*&#x200B;现在在[!DNL Adobe Data Collection]中被称为&#x200B;*标记*。 请参阅[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
+* *[!DNL Launch]*/*[!DNL Experience Platform Launch]*&#x200B;现在在[!DNL Adobe Data Collection]中被称为&#x200B;*标记*。 请参阅[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)。
 * *[!DNL XML Documentation for Adobe Experience Manager]* 现在是 *[!DNL Adobe Experience Manager Guides]*。
 * *[!DNL Captivate Prime]* 现在是 *[!DNL Adobe Learning Manager]*。
 * *[!DNL Bizible]* 现在是 *[!DNL Marketo Measure]*。
@@ -52,4 +52,4 @@ ht-degree: 80%
 
 >[!MORELIKETHIS]
 >
->有关其他已停产的 Adobe 应用程序和服务的列表，请参阅[免费和停产产品|支持选项](https://helpx.adobe.com/support/programs/support-options-free-discontinued-apps-services.html)。
+>有关其他已停产的 Adobe 应用程序和服务的列表，请参阅[免费和停产产品|支持选项](https://helpx.adobe.com/cn/support/programs/support-options-free-discontinued-apps-services.html)。
