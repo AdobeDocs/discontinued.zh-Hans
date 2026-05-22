@@ -1,15 +1,15 @@
 ---
-title: ' [!DNL Adobe Experience Cloud]  产品停产概述'
-description: ' [!DNL Adobe Experience Cloud]  和  [!DNL Adobe Experience Platform] 停产、退役或生命周期结束产品的概述'
+title: 停产的CX Enterprise产品概述
+description: CX Enterprise的已停产、已弃用或生命周期结束产品概述
 exl-id: 4841f7b3-993b-4406-81b1-3fb3fbbff453
-source-git-commit: b090d9f4f4040143b0d2847464785c7ad35de545
+source-git-commit: d014c200dd926ccf0116faa50c4bffb1d234e926
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '155'
+ht-degree: 80%
 
 ---
 
-# 已停产的 Adobe Experience Cloud 产品概述
+# 已停产的Adobe CX Enterprise产品概述
 
 由于不断更改的市场条件和对客户的影响，Adobe 有时会停止销售、开发或支持产品或技术。
 
@@ -23,6 +23,7 @@ ht-degree: 100%
 * [[!DNL Experience Cloud Library]](experience-cloud-library.md)
 * [[!DNL Experience Platform Auditor]](auditor.md)
 * [[!DNL Livefyre]](livefyre.md)
+* [[!DNL Media SDK] （1.x和2.x）](media-sdk.md)
 * [[!DNL Mobile Services]](mobile-services.md)
 * [[!DNL Reports & Analytics]](reports-and-analytics.md)
 * [[!DNL Search&Promote]](search-promote.md)
@@ -31,9 +32,6 @@ ht-degree: 100%
 
 <!--
 ## Notifications of upcoming products to be discontinued
-
-* [!DNL Data Workbench] end-of-life date is **December 31, 2023**. [Link]
-
 -->
 
 ## 更名产品列表
@@ -45,11 +43,12 @@ ht-degree: 100%
 * *[!DNL XML Documentation for Adobe Experience Manager]* 现在是 *[!DNL Adobe Experience Manager Guides]*。
 * *[!DNL Captivate Prime]* 现在是 *[!DNL Adobe Learning Manager]*。
 * *[!DNL Bizible]* 现在是 *[!DNL Marketo Measure]*。
+* *[!DNL Primetime]* 现在是 *[!DNL Adobe Pass]*。
 
 ## 其他停产产品 {#additional-products}
 
 * *[!DNL Adobe Bloodhound]* 于 2017 年 5 月 1 日落下帷幕。
-* *[!DNL AEM Mobile]* 于 2021 年 4 月 3 日停产。 请参阅 [AEM Mobile 生命周期结束常见问题解答](https://helpx.adobe.com/cn/digital-publishing-solution/help/aem-mobile-end-of-life-faq.html)。
+* *[!DNL AEM Mobile]* 于 2021 年 4 月 3 日停产。 请参阅 [AEM Mobile 生命周期结束常见问题解答](https://helpx.adobe.com/digital-publishing-solution/help/aem-mobile-end-of-life-faq.html)。
 
 >[!MORELIKETHIS]
 >
