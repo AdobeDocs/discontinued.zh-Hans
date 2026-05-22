@@ -2,10 +2,10 @@
 title: Adobe Mobile Services 终止使用常见问题
 description: 获取有关 Adobe Mobile Services 终止使用公告的常见问题的解答。
 exl-id: c5f44341-7b87-4530-b86e-17e2911a7959
-source-git-commit: 726b038bfeaf84d7b3ba786e716dff41446d5578
+source-git-commit: d014c200dd926ccf0116faa50c4bffb1d234e926
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 97%
+source-wordcount: '449'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ Mobile Services 已于 2022 年 12 月 31 日终止使用。 在此日期之后�
 
 ## 为什么停用该功能？
 
-随着 Adobe 不断扩展其移动营销功能，以前在 Mobile Services 中提供的功能将在 Adobe Experience Cloud 解决方案中发布或通过 Adobe Exchange 首选合作伙伴提供。 这一过渡为您提供了更强大、更灵活的移动营销功能。
+随着Adobe不断扩展其移动营销功能，以前在Mobile Services中提供的功能将在CX企业解决方案中发布或通过Adobe Exchange主要合作伙伴提供。 这一过渡为您提供了更强大、更灵活的移动营销功能。
 
 ## 在 Mobile Services 中创建的现有处理规则会发生什么情况？
 
