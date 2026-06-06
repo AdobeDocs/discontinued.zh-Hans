@@ -51,14 +51,14 @@ Adobe还引入了Edge Network实施，以便提供单个数据收集管道，该
 
 **选项1：迁移到Media SDK 3.x（仅限Analytics）**
 
-如果您使用的是2.x并专门使用Adobe Analytics，则迁移到3.x是最简单的途径。 有关完整的API比较和代码示例，请参阅[2.x到3.x迁移指南](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/migrate-js-2x-to-3x.html)。
+如果您使用的是2.x并专门使用Adobe Analytics，则迁移到3.x是最简单的途径。 有关完整的API比较和代码示例，请参阅[2.x到3.x迁移指南](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/migrate-js-2x-to-3x.html?lang=zh-Hans)。
 
 **选项2：迁移到Edge Network的流媒体（推荐）**
 
 对于新的实施，或者当您希望跨多个Adobe应用程序使用数据时，请使用Adobe Experience Platform Edge Network：
 
-* [Media Edge Web SDK](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-web-sdk.html)
-* [Media Edge Mobile SDK](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html)
+* [Media Edge Web SDK](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-web-sdk.html?lang=zh-Hans)
+* [Media Edge Mobile SDK](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html?lang=zh-Hans)
 * [Media Edge API](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/implementation-edge-api.html?lang=zh-Hans)
 
 ## 常见问题解答
@@ -77,7 +77,7 @@ Adobe还引入了Edge Network实施，以便提供单个数据收集管道，该
 
 +++**我仍在Media SDK 2.x上。 我应该怎么做？**
 
-Adobe建议将所有新项目迁移到Edge Network实施。 如果需要中间步骤，请[从JavaScript SDK 2.x迁移到3.x](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/migrate-js-2x-to-3x.html)，然后计划迁移到Edge Network。
+Adobe建议将所有新项目迁移到Edge Network实施。 如果需要中间步骤，请[从JavaScript SDK 2.x迁移到3.x](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/migrate-js-2x-to-3x.html?lang=zh-Hans)，然后计划迁移到Edge Network。
 
 +++
 
@@ -85,8 +85,8 @@ Adobe建议将所有新项目迁移到Edge Network实施。 如果需要中间�
 
 迁移工作取决于每位客户的实施，因此会有所不同。 查看迁移文档后，请咨询顾问或客户关怀团队以获得其他支持：
 
-* [使用移动设备Edge SDK — Android和iOS实施流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html)
-* [从JavaScript SDK 2.x迁移到3.x](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/migrate-js-2x-to-3x.html)
+* [使用移动设备Edge SDK — Android和iOS实施流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html?lang=zh-Hans)
+* [从JavaScript SDK 2.x迁移到3.x](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/migrate-js-2x-to-3x.html?lang=zh-Hans)
 
 +++
 
@@ -98,13 +98,13 @@ Adobe建议将所有新项目迁移到Edge Network实施。 如果需要中间�
 
 +++**终止支持是否会影响适用于tvOS的SDK？**
 
-是的。 对于tvOS（版本10+），建议的实施是使用Adobe Experience Platform Mobile SDK迁移到适用于Edge Network的流媒体。 有关详细信息，请参阅[使用Mobile Edge SDK实施流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html)。
+是的。 对于tvOS（版本10+），建议的实施是使用Adobe Experience Platform Mobile SDK迁移到适用于Edge Network的流媒体。 有关详细信息，请参阅[使用Mobile Edge SDK实施流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html?lang=zh-Hans)。
 
 +++
 
 +++**终止支持是否会影响Fire TV和Android TV的SDK？**
 
-是的。 对于Fire TV和Android TV，建议的实施是使用Adobe Experience Platform Mobile SDK迁移到Streaming Media for Edge Network。 有关详细信息，请参阅[使用Mobile Edge SDK实施流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html)。
+是的。 对于Fire TV和Android TV，建议的实施是使用Adobe Experience Platform Mobile SDK迁移到Streaming Media for Edge Network。 有关详细信息，请参阅[使用Mobile Edge SDK实施流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html?lang=zh-Hans)。
 
 +++
 
