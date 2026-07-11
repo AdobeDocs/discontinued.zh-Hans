@@ -2,9 +2,9 @@
 keywords: 设备图；生命周期结束
 title: 设备图
 description: 了解设备图的生命周期结束计划。
-source-git-commit: d014c200dd926ccf0116faa50c4bffb1d234e926
+source-git-commit: bd104719cf4dd8e9f2bb1c15f4d30e4ddfcf743c
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '334'
 ht-degree: 2%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 >[!WARNING]
 >
->自&#x200B;**2025年12月31日起，跨设备分析中的设备图不再可用**。 请将当前任何启用设备图的虚拟报表包切换到基于[字段的方法](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/cda/field-based-stitching)。
+>自&#x200B;**2025年12月31日起，跨设备分析中的设备图不再可用**。 请将当前任何启用设备图的虚拟报表包切换到基于[字段的方法](https://experienceleague.adobe.com/en/docs/analytics/components/cda/field-based-stitching)。
 
-Cross-Device Analytics确实使用专用图将数据拼合在一起。 专用图是特定于您的组织的经过哈希处理的设备ID的存储库。 CDA会定期与设备图进行通信，以便将设备链接在一起。
+Cross-Device Analytics使用专用图形将数据拼合在一起。 专用图是特定于您的组织的经过哈希处理的设备ID存储库。 CDA会定期与设备图进行通信，以便将设备链接在一起。
 
 ## 特定于设备图的先决条件
 
@@ -25,13 +25,12 @@ Cross-Device Analytics确实使用专用图将数据拼合在一起。 专用图
 >
 >如果不满足所有先决条件，则可能会导致无法启用Cross-Device Analytics，或者导致拼合数据时的结果不佳。
 
-* 您的组织必须使用[Adobe Experience Platform Identity Service专用图](https://business.adobe.com/cn/products/experience-platform/identity-service.html)。 另请参阅Identity Service用户指南中的[主页](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)。
-* 您的实施必须使用最新版本的ID服务(ECID)。 请参阅ID服务用户指南中的[主页](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 在Adobe Experience Platform中使用[标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)的大多数实施可能都已部署ID服务。
-* 当个人身份可以识别（例如，用户登录或打开电子邮件）时，您的实施必须调用`setCustomerIDs`函数（或等效的SDK）。 这项要求适用于所有平台，包括使用的移动应用程序。 请参阅ID服务用户指南中的[`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=zh-Hans)。
+* 您的组织必须使用[Adobe Experience Platform Identity Service专用图](https://business.adobe.com/products/experience-platform/identity-service.html)。 另请参阅Identity Service用户指南中的[主页](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)。
+* 您的实施必须使用最新版本的访客ID服务(`VisitorAPI.js`)。 请参阅访客ID服务用户指南中的[主页](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 在Adobe Experience Platform中使用[标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)的大多数实施可能已经部署了访客ID服务。
+* 当个人身份可以识别（例如，用户登录或打开电子邮件）时，您的实施必须调用`setCustomerIDs`函数（或等效的SDK）。 这项要求适用于所有平台，包括使用的移动应用程序。 请参阅访客ID服务用户指南中的[`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html)。
 
 ## 特定于设备图的限制
 
 * 不支持旧版Analytics ID。 仅拼合具有ECID的访客。
 * 如果您的组织使用专用图，则拼合新设备最多需要24小时。
 * 不支持第三方设备图。
-
