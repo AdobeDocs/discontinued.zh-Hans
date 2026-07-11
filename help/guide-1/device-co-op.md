@@ -3,16 +3,16 @@ keywords: 设备协作；设备协作；生命周期结束
 title: '[!DNL Device Co-op] 生命周期结束常见问题解答'
 description: 了解 Device Co-op 的生命周期结束计划。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: d014c200dd926ccf0116faa50c4bffb1d234e926
+source-git-commit: bd104719cf4dd8e9f2bb1c15f4d30e4ddfcf743c
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1213'
 ht-degree: 95%
 
 ---
 
 # [!DNL Device Co-op] 生命周期结束常见问题解答
 
-本文档提供了有关CX企业设备协作生命周期结束(EOL)计划的常见问题解答。 此计划生效后，Adobe将在[CX Enterprise Central发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)和[优先产品更新](https://www.adobe.com/cn/subscription/priority-product-update.html)中提供一项高级通知。
+本文档提供有关设备协作生命周期结束(EOL)计划的常见问题解答。 此计划生效后，Adobe将在[Experience Cloud Central发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)和[产品更新优先级](https://www.adobe.com/cn/subscription/priority-product-update.html)中提供高级通知。
 
 [!DNL Device Co-op] 是一个让参与者共同努力以更好地识别跨数字接触点的消费者的计划，同时确保最高水平的隐私和透明度。
 
