@@ -57,7 +57,7 @@ Adobe还引入了Edge Network实施，以便提供单个数据收集管道，该
 
 * [Media Edge Web SDK](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-web-sdk.html)
 * [Media Edge Mobile SDK](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/edge-mobile-sdk.html)
-* [Media Edge API](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/implementation-edge-api.html)
+* [Media Edge API](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/implementation-edge-api.html?lang=zh-Hans)
 
 ## 常见问题解答
 
@@ -120,6 +120,6 @@ Adobe建议将所有新项目迁移到Edge Network实施。 如果需要中间�
 
 >[!MORELIKETHIS]
 >
->* [流媒体实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)
->* [Edge Network流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/implementation-edge.html)
->* [Media SDK 3.x — JavaScript设置](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/web-implementation.html)
+>* [流媒体实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hans)
+>* [Edge Network流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge/implementation-edge.html?lang=zh-Hans)
+>* [Media SDK 3.x — JavaScript设置](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/web-implementation.html?lang=zh-Hans)
