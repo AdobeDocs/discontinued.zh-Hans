@@ -55,7 +55,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ### [!DNL Analytics]
 
-您可以使用[!DNL Analytics][跨设备分析 (CDA)](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 功能，因为它同时支持 Adobe Experience Platform 身份标识服务[专用图形](https://experienceleague.adobe.com/docs/analytics/components/cda/device-graph.html?lang=zh-Hans)和[基于字段的拼接](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=zh-Hans)。
+您可以使用[!DNL Analytics]&#x200B;[跨设备分析 (CDA)](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 功能，因为它同时支持 Adobe Experience Platform 身份标识服务[专用图形](https://experienceleague.adobe.com/docs/analytics/components/cda/device-graph.html?lang=zh-Hans)和[基于字段的拼接](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=zh-Hans)。
 
 ### [!DNL Audience Manager]
 
