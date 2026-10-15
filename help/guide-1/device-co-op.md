@@ -7,9 +7,7 @@ source-git-commit: bd104719cf4dd8e9f2bb1c15f4d30e4ddfcf743c
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 95%
-
 ---
-
 # [!DNL Device Co-op] 生命周期结束常见问题解答
 
 本文档提供有关设备协作生命周期结束(EOL)计划的常见问题解答。 此计划生效后，Adobe将在[Experience Cloud Central发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)和[产品更新优先级](https://www.adobe.com/cn/subscription/priority-product-update.html)中提供高级通知。
@@ -57,7 +55,7 @@ AdTech 环境即将发生的更改预计将导致 [!DNL Device Co-op] 在未来�
 
 ### [!DNL Analytics]
 
-您可以使用[!DNL Analytics][跨设备分析 (CDA)](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hans) 功能，因为它同时支持 Adobe Experience Platform 身份标识服务[专用图形](https://experienceleague.adobe.com/docs/analytics/components/cda/device-graph.html?lang=zh-Hans)和[基于字段的拼接](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=zh-Hans)。
+您可以使用[!DNL Analytics]&#x200B;[跨设备分析 (CDA)](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hans) 功能，因为它同时支持 Adobe Experience Platform 身份标识服务[专用图形](https://experienceleague.adobe.com/docs/analytics/components/cda/device-graph.html?lang=zh-Hans)和[基于字段的拼接](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=zh-Hans)。
 
 ### [!DNL Audience Manager]
 
