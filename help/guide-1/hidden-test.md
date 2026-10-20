@@ -41,7 +41,7 @@ ht-degree: 8%
 
 [锚点带有深层链接的新选项卡](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/home#key-analytics-resources){target="_blank"}
 
-[带有外部链接的新选项卡](https://www.adobe.com){target="_blank"}
+[带有外部链接的新选项卡](https://www.adobe.com/cn){target="_blank"}
 
 [新建选项卡根链接](/help/guide-1/auditor.md){target="_blank"}
 
@@ -52,12 +52,12 @@ ht-degree: 8%
     <th>不带引号</th>
   </tr>
   <tr>
-    <td><a href="https://www.adobe.com" target="_blank">Adobe新选项卡</a></td>
-    <td><a href="https://www.adobe.com" target="_blank">Adobe新选项卡</td>
+    <td><a href="https://www.adobe.com/cn" target="_blank">Adobe新选项卡</a></td>
+    <td><a href="https://www.adobe.com/cn" target="_blank">Adobe新选项卡</td>
   </tr>
   <tr>
-    <td><a href="https://www.adobe.com">Adobe无新选项卡</a></td>
-    <td><a href="https://www.adobe.com">Adobe无新选项卡</td>
+    <td><a href="https://www.adobe.com/cn">Adobe无新选项卡</a></td>
+    <td><a href="https://www.adobe.com/cn">Adobe无新选项卡</td>
   </tr>
 </table>
 
